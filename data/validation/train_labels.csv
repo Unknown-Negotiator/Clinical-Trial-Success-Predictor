@@ -1,0 +1,254 @@
+full_text_results,p_value,ci,test_performed,effect_estimate_with_ci,endpoint_criterion_met,endpoint_id
+"The combination of tislelizumab and TP regimen did not increase the incidence of adverse events, and no treatment-related adverse events for grade 3/4 were observed.",,,,,True,293
+"At the data cutoff on 01/22/2025, the ORR (CR+PR) was 75%.",,,,,True,168
+"median PFS was 3.4 months (95% confidence interval: 2.0, 4.4) with Nira (n=30) and 5.6 (3.7, 16.8) months with Nira+Cet (n=30, p=0.01)",0.01,,,,True,148
+"median overall survival was 10.2 (6.4, 19.6) with Nira and 24.3 (9.5, not reached) months with Nira+Cet (p=0.01)",0.01,,,,True,147
+"3y EFS was 30% (CI 20% – 40%) in arm A and 14% (CI 5% – 23%) in arm B with HR 0.66 (CI 0.49-0.89, p=0.005).",0.005,0.49-0.89,stratified logrank test,HR 0.66 (CI 0.49-0.89),True,325
+"The ORR by ICR was 45.2% (14/31; 95% CI, 27.3–64.0), meeting the primary endpoint.",,"95% CI, 27.3–64.0",,"45.2% (95% CI, 27.3–64.0)",True,176
+One DLT (grade 3 lethargy/fatigue) was observed at the MTD (2.5 x 10^7 cells).,,,,,True,16
+One DLT (grade 3 lethargy/fatigue) was observed at the MTD (2.5 x 10^7 cells).,,,,,True,15
+"As of 12/2024 and based on 25 evaluable pts, CRR at 3 mo was 68% (17/25).",,,,68% (17/25),True,142
+"HHV-8 DNA declined at C4 (208 vs 41 copies/ml, p = 0.035)",0.035,,,,True,264
+no HIV-VL... changes,,,,,True,265
+no... CD4 changes,,,,,True,263
+increased T-regs (p = 0.035),0.035,,,,True,267
+decreased macrophages (p = 0.048) at C4,0.048,,,,True,268
+"A non-significant rise was seen in NK, CD4, and CD8 naïve cells.",,,,,False,266
+"16/22 (73%, one-sided 95% CI =53%-100%, p<.0001) had a MPR, of which 6 had a pathologic complete response (pCR), thus meeting the study's primary endpoint of 10 MPR.",0.0001,one-sided 95% CI =53%-100%,Simon Two-stage design,"73%, one-sided 95% CI =53%-100%",True,192
+"Induction toripalimab plus chemotherapy exhibited significantly longer PFS compared to chemotherapy alone (median not reached [NR] vs NR; hazard ratio 0.25 [95% CI, 0.07-0.90], P=0.034).",0.034,"95% CI, 0.07-0.90",,"hazard ratio 0.25 [95% CI, 0.07-0.90]",True,229
+"Three-months landmark analyses showed that patients with irAE have significantly longer OS than those without (29.3 vs. 22.1 months, P = 0.018).",0.018,,,,True,21
+"Exploratory analyses demonstrated that patients with PDL1 CPS ≥10 had significantly longer PFS (13.7 vs 11.4 months, P = 0.039).",0.039,,,,True,22
+"Patients with high TILs had significantly longer OS (23.1 vs.10.3 months, P = 0.003).",0.003,,,,True,20
+"the activation of DNA repair pathway (HR,11.6, 95%CI 2.4-55.7, P = 0.002) was significantly associated with shorter PFS",0.002,95%CI 2.4-55.7,,"HR,11.6, 95%CI 2.4-55.7",True,17
+"MYC target pathway (HR,7.4,95%CI 1.9-28.2, P = 0.004) was significantly associated with shorter PFS",0.004,95%CI 1.9-28.2,,"HR,7.4,95%CI 1.9-28.2",True,19
+"the activation of KRAS signaling (HR,3.2, 95%CI 1.1-9.7, P = 0.035) was significantly associated with worse OS",0.035,95%CI 1.1-9.7,,"HR,3.2, 95%CI 1.1-9.7",True,18
+"In SOFT, a moderate DFS benefit of T+OFS vs T (HR 0.85; 0.72-1.00) persisted",,0.72-1.00,,HR 0.85; 0.72-1.00,False,154
+BCFI benefit was HR 0.82 (0.69-0.98),,0.69-0.98,,HR 0.82 (0.69-0.98),True,157
+E+OFS vs T further reduced DFS events (HR 0.73; 0.61-0.86). The 15y DFS in SOFT was... 73.5% for E+OFS.,,0.61-0.86,,HR 0.73; 0.61-0.86,True,152
+There were consistent but non-significant decreased hazards of death for T+OFS vs T (HR 0.87; 0.68-1.10).,,0.68-1.10,,HR 0.87; 0.68-1.10,False,160
+There were consistent but non-significant decreased hazards of death for... E+OFS vs T (HR 0.85; 0.67-1.08).,,0.67-1.08,,HR 0.85; 0.67-1.08,False,158
+For the TEXT+SOFT combined analysis of E+OFS vs T+OFS (n=2346 vs 2344) DFS... continued as significantly improved for E+OFS over T+OFS. 15y DFS was 74.9% vs 71.3% (HR 0.82; 0.73-0.92).,,0.73-0.92,,HR 0.82; 0.73-0.92,True,153
+For the TEXT+SOFT combined analysis... BCFI... continued as significantly improved for E+OFS over T+OFS.,,,,,True,156
+For the TEXT+SOFT combined analysis... DRFI continued as significantly improved for E+OFS over T+OFS.,,,,,True,155
+15y OS was 87.8% vs 87.0% (HR 0.94; 0.80-1.11) respectively.,,0.80-1.11,,HR 0.94; 0.80-1.11,False,159
+"The 1-year PFS was 47.6 % (90% CI; 29.2–64.0), achieving the primary endpoint.",,90% CI; 29.2–64.0,,47.6 % (90% CI; 29.2–64.0),True,63
+"The most common adverse events were hand and foot syndrome (30.8%, n = 4) followed by cough, decreased absolute neutrophil count, thromboembolic event, and dyspnea which occurred each in 15.4% (n = 2) patients. Only 1 immune related event of dry mouth (sicca) was seen (7.7%). No unexpected adverse events or DLT were seen.",,,,,True,261
+"The media RFS was 27.5 months (95% CI: 20.5-NA) in the Len+ TACE group, which was significantly longer than 16.2 months (95% CI: 10.2-NA) in the TACE group (P = 0.04; HR 0.51, 95% CI: 0.27-0.98).",0.04,95% CI: 0.27-0.98,,"HR 0.51, 95% CI: 0.27-0.98",True,281
+The DCR was 60% (n = 15),,,,,True,107
+No dose-limiting toxicity was reported,,,,,True,93
+"The most common (≥ 10%) treatment related adverse events (TRAEs) were grade 1 or 2 vomiting (44.4%), nausea and diarrhea (38.9% each), fatigue (16.7%), ALT increased, blood CPK increased, hyperkalemia and hyperuricemia (11.1% each). No treatment related grade 3 or higher AE or SAE was reported.",,,,,True,94
+"Within the 9 pts from phase 1b part (3 in S 200 mg cohort, 6 in S 250 mg cohort), no DLTs occurred thus the RP2D of S was determined as 250mg qd.",,,,,True,123
+"In the exploratory analysis, DDR-related mutations seemed predictive for better ORR (85.7% vs 55.6%, P= 0.308)",0.308,,,,False,120
+"DDR-related mutations seemed predictive for better... PFS (6-month PFS rate:100% vs 53.3%, log-rank P= 0.519)",0.519,,log-rank,,False,122
+"DDR-related mutations seemed predictive for better... OS (6-month OS rate:100% vs 62.5%, log-rank P= 0.116)",0.116,,log-rank,,False,121
+"20.0% (90% CI: 3.7-50.7, p = 0.0861)",0.0861,90% CI: 3.7-50.7,,,False,99
+"20.0% (90% CI: 5.7-44.0, p = 0.0362)",0.0362,90% CI: 5.7-44.0,,,True,100
+"6.7% (90% CI: 0.3-27.9, p = 0.5367)",0.5367,90% CI: 0.3-27.9,,,False,101
+Pain scores improved by 18% in the metronomic group compared to 12% in the cisplatin group at week 6 (p = 0.031).,0.031,,,,True,290
+Swallowing difficulties decreased by 15% in the metronomic group versus 8% in the cisplatin group (p = 0.042).,0.042,,,,True,292
+speech-related challenges showed a 10% improvement in the metronomic group compared to 6% in the cisplatin group (p = 0.049).,0.049,,,,True,291
+Fatigue scores improved by 13% in the metronomic group versus 9% in the cisplatin group (p = 0.038).,0.038,,,,True,288
+"Emotional well-being also increased significantly, with a 14% improvement in the metronomic group compared to 10% in the cisplatin group (p = 0.045).",0.045,,,,True,287
+"While overall HRQoL scores at the study’s end were comparable between groups, metronomic therapy showed superior symptom control and fewer adverse effects, enhancing its tolerability.",,,,,False,289
+No major changes were noted in the observed etoposide exposure across Debio 0123 dose levels (200 to 400 mg) after one or three days of co-administration in adult SCLC participants that recurred or progressed after previous platinum treatment. Etoposide PK observed in the study was also in line with literature data (US label Etopophos 2011).,,,,,True,271
+Debio 0123 PK was consistent with data previously reported for monotherapy (Abstract #3120 ASCO 2024).,,,,,True,270
+"During therapy, a total of 105 SAEs were observed including 74 SAE grade 3, 1 SAE grade 4, and 4 SAE grade 5, with SAEs being ileus, acute pain, cholangiosepsis, infection, small intestinal perforation, or stroke. A Data and Safety Monitoring Board could not find any new and unexpected (S)AEs and recommends continuation of the study.",,,,,True,282
+These results provide preliminary support that a decentralized trial assessing neurocognitive outcomes is feasible in patients with CNS malignancy. The completion rates of questionnaires and objective cognitive evaluation are comparable or higher than expected with historic norms.,,,,,True,262
+"The median IRC-assessed PFS in anlotinib and bevacizumab group were 11.04 months (95% CI, 9.82-11.17) and 11.04 months (9.69-11.17), respectively, with HR 1.00 (0.84-1.18).",,0.84-1.18,,HR 1.00 (0.84-1.18),False,311
+Repeated WTX-212 treatment showed no DLTs or TRAEs ≥3. No patient discontinued treatment due to AEs.,,,NCI-CTCAE v.5.0,,True,65
+There were no DLT,,,,,True,96
+The confirmed ORR was 33.3%,,,,,True,296
+"MPR was documented in 15 (46%, 90% Confidence Interval [CI]: 31%–61%) patients.",,90% CI: 31%–61%,,46% (90% CI: 31%–61%),True,230
+All patients achieved complete hematological remission within 31 days of induction.,,,,,True,197
+All patients achieved... molecular remission by 28 days of the first consolidation cycle.,,,,,True,198
+No patients experienced prolonged neutropenia (> 28 days).,,,,,True,199
+No patients experienced... severe mucositis (Grade 3 or 4).,,,,,True,200
+No patients experienced... cardiotoxicity.,,,,,True,196
+No patients experienced... DIC.,,,,,True,195
+MTD was not determined.,,,,,False,89
+"MPR was achieved in four (50%) of eight patients. Among six ALK-positive cases, four (67%) patients obtained MPR.",,,,,True,295
+"54.7% (95% CI, 39.4 to 67.7) for Afa vs. 57.5% (95% CI, 42.2 to 70.1) for Osi at 3-year survival rate.",,"54.7% (95% CI, 39.4 to 67.7) for Afa vs. 57.5% (95% CI, 42.2 to 70.1) for Osi",,,False,248
+"The efficacy of Osi varied significantly dependent on the immunological biomarkers, Th7R (stem cell-like CD4 T cells) and Th2... On the other hand, no immunological biomarkers affected PFS and OS of Afa.",,,,,True,247
+"Median progression-free survival (PFS) was 16.7 months (mos) for Afa vs. 14.5 mos for Osi (HR, 1.17; 95% CI, 0.72 to 1.90; P = 0.52).",0.52,"95% CI, 0.72 to 1.90",,"HR, 1.17; 95% CI, 0.72 to 1.90",False,246
+"Median OS was 38.8 mos for Afa and not reached for Osi (HR, 1.15; 95% CI, 0.64 to 2.05; P = 0.64)",0.64,"95% CI, 0.64 to 2.05",,"HR, 1.15; 95% CI, 0.64 to 2.05",False,243
+"Pts with high Th7R (7.83% or more) had promising PFS (31.0 mos [n = 28] vs. 6.6 mos [n = 20]; HR, 0.38; P = 0.006)",0.006,,,"HR, 0.38",True,245
+"OS (not reached vs. 35.5 mos; HR, 0.56; P = 0.18)",0.18,,,"HR, 0.56",False,242
+"pts with high Th2 (7.20% or more) had poor PFS (6.6 mos [n = 27] vs. 31.0 mos [n = 21]; HR, 1.78; P = 0.11)",0.11,,,"HR, 1.78",False,244
+"OS (35.5 mos vs. not reached; HR, 2.77; P = 0.03)",0.03,,,"HR, 2.77",True,241
+"In cohort A, ORR was 8% (6 partial responses [PR], 0 complete responses [CR])",,,,,False,59
+EGL-001 was well tolerated with no DLTs reported.,,,,,True,257
+no DLTs reported,,,,,True,256
+No DLTs or treatment-related AEs (TRAEs) leading to permanent discontinuation were reported. The most common TRAEs were infusion-related reactions and hematologic AEs (Table).,,,modified toxicity probability interval method,,True,221
+"The 12-month progression-free survival (PFS) rates for patients with refractory and progressive disease were 79.4% and 35.6%, respectively (P = 0.014).",0.014,,,,True,307
+"The 12-month overall survival (OS) rates for patients with refractory and progressive disease were 92.3% and 59.3%, respectively (P = 0.054).",0.054,,,,False,306
+"For patients with refractory and progressive disease, those who received sintilimab therapy exhibited a higher 12-month PFS rate compared to those who did not undergo sintilimab treatment (76.9% vs. 44.2%, P = 0.059).",0.059,,,,False,305
+median 4.1 mos in ARM A vs 2.4 mos in ARM B,0.15,95% CI: 0.93 – 1.64,Cox proportional hazards model,HR: 1.23 (95% CI: 0.93 – 1.64),False,317
+16.0% in ARM A vs 1.9% in ARM B,0.01,95% CI: 0.01 – 0.44,,OR: 0.1 (95% CI: 0.01 – 0.44),True,316
+59.4% in ARM A vs 31.8% in ARM B,0.01,95% CI: 0.18 – 0.56,,OR: 0.32 (95% CI: 0.18 – 0.56),True,315
+median 2.7 mos in ARM A vs 3.7 mos in ARM B,0.12,95%CI: 0.54 – 1.07,Cox proportional hazards model,HR: 0.76 (95%CI: 0.54 – 1.07),False,321
+0% in ARM A vs 17.4% in ARM B,0.01,95% CI: 3.44 - NA,,OR: NA (95% CI: 3.44 - NA),True,320
+37.3% in ARM A vs 55.7% in ARM B,0.02,95% CI: 1.11 – 4.27,,OR: 2.17 (95% CI: 1.11 – 4.27),True,319
+median 2.7 mos vs 3.9 mos,0.06,95%CI: 0.5 – 1.01,Cox proportional hazards model,HR: 0.71 (95%CI: 0.5 – 1.01),False,318
+"The most common AEs were constipation (43.8%) and itching (37.5%), with one reported serious adverse event (SAE) of herpes zoster, and no significant toxicities or treatment-related deaths observed.",,,,,True,260
+5/26 (19.2%) had confirmed PR.,,,minimax Simon two-stage design,,True,194
+"No dose-limiting toxicities (DLT) were observed in the first six patients receiving PLD (37.5 mg/m², i.v., Day 1, q3w), confirming the RP2D.",,,,,True,34
+The MTD was determined to be abemaciclib 150 mg PO BID and niraparib 100 mg PO daily.,,,3+3 dose-escalation algorithm,,True,259
+"No DLTs occurred among 3 pts treated at DL1; however, 2 DLTs occurred at DL2, including one hematological DLT (dose delay >7 days due to myelosuppression) and a grade 5 cardiac adverse event (AE).",,,3+3 dose-escalation algorithm,,True,258
+"Neoadjuvant treatment improved OS (mOS, Arm A 27.8 vs. 14.6 months Arm B; HR 0.46 [0.22 - 0.96]; p = 0.04)",0.04,0.22 - 0.96,,HR 0.46 [0.22 - 0.96],True,113
+Postoperative morbidity rates were similar in both arms (33.3% (A) vs. 32% (B)),,,,,True,114
+"no dose-limiting toxicities, neurotoxicity, cytokine release syndrome greater than Grade 2, or graft-versus-host disease were observed.",,,,,True,70
+The ORR was 80% in the VEN50 cohort & 81.8% in the VEN400 cohort.,1.0,,,,False,208
+CRc rates were comparable between the VEN50 (60%) & VEN400 (63.6%) cohorts.,1.0,,,,False,210
+similar MRD negativity rates (30% vs. 36.3%),0.98,,,,False,211
+C0 levels of 0.42 µg/mL vs. 1.08 µg/mL (p=0.004),0.004,,,,True,203
+Cmax levels of 1.435 µg/mL vs. 3.63 µg/mL (p=0.002),0.002,,,,True,204
+"systemic drug exposure in the VEN50 cohort [AUC(0–24):17.88 µg·h/mL vs. 48.05 µg·h/mL, p=0.002]",0.002,,,,True,202
+shorter neutropenic phase (17.5 vs. 24 days),0.4,,,,False,207
+"febrile neutropenia (60% vs. 72.7%, p=0.501)",0.501,,,,True,206
+"culture-positive infections (20% vs. 27.2%, p=0.569)",0.569,,,,True,205
+No treatment-related death occurred in either of the group.,,,,,True,209
+"The rate of treatment success was 66.7% in the 3-week group and 85.2% in the 6-week group, which did not demonstrate noninferiority in the overall study population (difference, −18.5% percentage points [80% confidence interval {CI}, −29.0% to -7.9%], p = 0.621)",0.621,"80% confidence interval {CI}, −29.0% to -7.9%",,"difference, −18.5% percentage points [80% confidence interval {CI}, −29.0% to -7.9%]",False,45
+a predefined exploratory superiority analysis indicated superiority of the 6-week regimen (p = 0.013).,0.013,,,,True,43
+"The absolute mean change in the total QOL using the K-BILD score from baseline was 4.78 in the 3-week group and 6.28 in the 6-week group (between-group difference, -1.50 points; 95% CI, −5.91 to 2.91).",,"95% CI, −5.91 to 2.91",,"between-group difference, -1.50 points; 95% CI, −5.91 to 2.91",False,44
+"Treatment-related adverse events (TRAEs) occurred in 63.3% of patients. The most common TRAEs (≥10%) included anemia (24.1%), proteinuria (12.7%), increased alanine aminotransferase (11.4%), increased aspartate aminotransferase (11.4%), hyponatremia (10.1%), increased blood lactate dehydrogenase (10.1%), and weight loss (10.2%). Grade 3 TRAEs occurred in 7 patients, including 3 with hypokalemia, 2 with hypertension, 1 with hyponatremia, 1 with proteinuria, and 1 with pulmonary embolism.",,,,,True,72
+No dose-limiting toxicities (DLTs) were observed.,,,,,True,71
+"30% of pts (9/30) experienced a confirmed response (2 CR, 7 PR); an additional 3 pts (10%) experienced unconfirmed PRs",,,,,True,169
+16 pts were alive and progression-free at 6 months. The estimated 6-month PFS was 75.96% (95% CI 53.82-88.51%).,,95% CI 53.82-88.51%,,75.96% (95% CI 53.82-88.51%),True,170
+"The most common adverse events were lymphopenia (7 [14.6%]) and decreased appetite (6 [12.5%]). There were no dose-limiting toxicities, cytokine release syndrome, nor related neurotoxicity. One participant was admitted to the hospital for decreased appetite. No long-term toxicities have been noted up to 7.5 months post-infusion.",,,,,True,91
+A2B694 was detected post-infusion in the peripheral blood in all patients.,,,,,True,90
+A2B694 was detected in an abdominal tumor biopsy from a patient with pancreatic cancer 42 days post-infusion.,,,,,True,92
+RD06-03 was well tolerated with no DLT... observed.,,,,,True,201
+"The primary end point was met, with rPFS significantly longer with NIRA + AAP (median, not reached [NR]) vs AAP (29.5 mo [95% CI, 25.8-NR]; HR, 0.63 [95% CI, 0.49-0.80], p=0.0001), including in the prespecified BRCA1/2 subgroup (HR, 0.52 [95% CI, 0.37-0.72], p<0.0001).",0.0001,"95% CI, 0.49-0.80","stratified Cox model, stratified log-rank test","HR, 0.63 [95% CI, 0.49-0.80]",True,327
+"TSP was significantly improved with NIRA + AAP vs AAP (HR, 0.50 [95% CI, 0.36-0.69], p<0.0001; BRCA1/2: HR, 0.44 [95% CI, 0.29-0.68], p=0.0001).",0.0001,"95% CI, 0.36-0.69","stratified Cox model, stratified log-rank test","HR, 0.50 [95% CI, 0.36-0.69]",True,329
+"A trend in OS was seen at this first interim analysis (193/389 events) favoring NIRA + AAP (HR, 0.79 [95% CI, 0.59-1.04], p=0.10; BRCA1/2: HR, 0.75 [95% CI, 0.51-1.11], p=0.15).",0.1,"95% CI, 0.59-1.04","stratified Cox model, stratified log-rank test","HR, 0.79 [95% CI, 0.59-1.04]",False,328
+The incidence of irAEs was 31.91% (15/47) in the GQT group and 59.57% (28/47) in the control group. The incidence of irAEs in the GQT group was decreased significantly (P = 0.007).,0.007,,,,True,302
+"The ORR was 48.9% (0 CR, 48.9% PR) among response-evaluable patients in the GQT group (n = 45), while it was 36.2% (2.1% CR, 34.0% PR) in the control group (n = 43) (P = 0.211).",0.211,,,,False,304
+"The results of 16s rRNA and metabolomics detection of fecal samples showed significant differences in the gut microbiota composition between the T-P and T-A groups (P = 0.019). Compared to C-A patients, Subdoligranulum and Atopobiaceae were increased in T-A patients, while Holdemanella, Atopobium, and Escherichia_Shigella were significantly reduced. Furthermore, prostaglandin A1 was higher, while glyceric acid and deoxyadenosine were lower in the T-A compared with the C-A. And these metabolisms were found to be significantly enriched in glycerolipid metabolism and pentose phosphate pathway.",0.019,,,,True,301
+"The median onset time of irAEs in the GQT group was 14.9 weeks, and in the control group was 8.7 weeks (P = 0.807).",0.807,,,,False,303
+"Overall, the RCB0/I rate with OC was 52.2% vs. 70.5% with TAC (stratified risk difference = -18.8% (95%CI: -39.6% to 2.0%); p=0.068). In pts with BRCA1/2 PV, RCB0/I rates were comparable: 77.3% (OC) vs. 65.0% (TAC), while in 47 pts with BRCA1/2 wild type (WT), OC was significantly less effective: RCB0/I of 29.2% vs 73.9% in TAC (interaction p=0.008).",0.068,-39.6% to 2.0%,two-sided Cochran Mantel-Haenszel test,stratified risk difference = -18.8% (95%CI: -39.6% to 2.0%),False,164
+"The confirmed ORR was 67.6% (95% CI, 49.5-82.6), including 1 patient with a complete response (CR), meeting the primary endpoint.",,"95% CI, 49.5-82.6",Simon's minimax two-stage design,"67.6% (95% CI, 49.5-82.6)",True,124
+"At 24 weeks 12.1% (n = 4) experienced > gr 3/4 irAEs, significantly lower than the expected known irAE rate (2-sided p = 0.0007, 95% CI: 12.1%-28.2%).",0.0007,95% CI: 12.1%-28.2%,binomial test,12.1% (95% CI: 12.1%-28.2%),True,250
+Circulating IL-6Ra and IL-4 were significantly reduced at Cycle 2 (P < 0.05).,0.05,,Luminex assays,,True,249
+"Twelve out of 19 evaluable pts (63%) were still on treatment after 1 year from TS start (median duration 20 months, range 2-29), meeting the primary endpoint.",,,,63%,True,253
+"For the BC cohort... DC rate of 37% (90% CI, 24 to 100)... The null DC rate was rejected (p=0.005).",0.005,"90% CI, 24 to 100",,"DC rate of 37% (90% CI, 24 to 100)",True,97
+"For the OC cohort... DC rate of 25% (90% CI, 10 to 100)... The null DC rate was not rejected (p=0.29).",0.29,"90% CI, 10 to 100",,"DC rate of 25% (90% CI, 10 to 100)",False,98
+There were no significant differences between amulirafusp alfa monotherapy and combination with lenalidomide in terms of PK exposure and ADA incidence rate.,,,,,True,218
+There were no significant differences between amulirafusp alfa monotherapy and combination with lenalidomide in terms of PK exposure and ADA incidence rate.,,,,,True,217
+"There was no significant difference in... median OS (21.6 vs 37.2 months, p=0.530) and 5-year OS (45.3% vs 41.1%) between PF and PP arm, respectively.",0.53,,,,False,334
+"Grade 3/4 hematological (28.6% vs 4.5%, p=0.033)... toxicities were higher in PF arm.",0.033,,,,True,331
+"Grade 3/4... gastrointestinal (33.3% vs 4.5%, p=0.015) toxicities were higher in PF arm.",0.015,,,,True,330
+QoL (EORTC QLQ-C30 and MSHQ) analysis showed no difference in global health status (p=0.094),0.094,,,,False,333
+Patients in PF arm reported more erectile dysfunction-related bother (p=0.018),0.018,,,,True,332
+"DC rate of 37% (90% CI, 24 to 100)... The null DC rate was rejected (p=0.005).",0.005,"90% CI, 24 to 100",Simon 2-stage design,"37% (90% CI, 24 to 100)",True,286
+"the median PFS was 30.4 months (95% CI: 19.6–NA), meeting the primary endpoint.",,95% CI: 19.6–NA,,median PFS was 30.4 months (95% CI: 19.6–NA),True,14
+PAM50 analysis in 75 patients (phase IB/II) showed no significant correlation between intrinsic subtype and efficacy.,,,PAM50 analysis,,False,13
+patients with TASOR2 or MST1R mutation demonstrated a significantly lower pCR rate (both P=0.041).,0.041,,,,True,173
+CCND1 amplification showed a non-significant negative trend with the pCR rate (P=0.051).,0.051,,,,False,172
+"In the 21 safety evaluable patients, only 1 DLT of Grade 3 increased alanine aminotransferase, in the context of multiple viral infections, was reported. The DLT resolved after treatment interruption and Alectinib was restarted at a reduced dose level, and then tolerated well. Eighteen patients (86%) experienced at least one Adverse Event (AE) reported as related to Alectinib, the majority being of Grade 1 and 2 severity. Grade ≥ 3 AEs related to alectinib were reported for 5 patients (23.8%) and there were 2 patients with serious AEs related to Alectinib. There were no new safety signals detected.",,,,,True,3
+"Patients were recruited to Part 1 to confirm the recommended phase 2 dose (RP2D)... only 1 DLT of Grade 3 increased alanine aminotransferase... was reported. The DLT resolved after treatment interruption and Alectinib was restarted at a reduced dose level, and then tolerated well.",,,,,True,2
+Investigator reported Best Overall Response rate in 16 patients was 87.5%; (14 PRs) and 2 patients were reported to have stable disease.,,,,,True,1
+"In the 11 pts monitored via next-generation sequencing (NGS), ctDNA clearance post-treatment correlated significantly with improved PFS (median PFS: NR vs. 17.8 months, P=0.015).",0.015,,,,True,240
+"Median EFS was 5.1 mos (95% CI 3.1, 6.3) for IFOS and 3.5 mos (95% CI 2.5, 6.1) for CE. Given the observed data the posterior probabilities that EFS... were better after IFOS than after CE (ie Pr[true hazard ratio > 1 | data]) were 87%...",,"95% CI 3.1, 6.3 (for IFOS); 95% CI 2.5, 6.1 (for CE)",probability-based Bayesian approach,,False,5
+"Median OS was 14.4 mos (95% CI 11.5, 20.7) for IFOS and 19.0 mos (95% CI 11.2, 24.6) for CE. Given the observed data the posterior probabilities that... OS were better after IFOS than after CE... were... 55%...",,"95% CI 11.5, 20.7 (for IFOS); 95% CI 11.2, 24.6 (for CE)",probability-based Bayesian approach,,False,6
+No treatment-related serious or grade > 3 adverse events were reported.,,,,,True,76
+"the study reached the significantly improved BICR-assessed ORR with MRG003 compared to chemotherapy (30.2% vs. 11.5%, difference: 18.7%, 95%CI: 7.0%, 30.5%, P=0.0025).",0.0025,"95%CI: 7.0%, 30.5%",,"difference: 18.7%, 95%CI: 7.0%, 30.5%",True,343
+"PFS was significantly improved in the MRG003 arm (HR=0.63, 95%CI: 0.43, 0.91, P=0.0146). Median PFS (95%CI) by BICR were 5.8m (4.2, 6.2) vs. 2.8m (2.0, 5.5).",0.0146,"95%CI: 0.43, 0.91",,"HR=0.63, 95%CI: 0.43, 0.91",True,346
+"As of 30 December 2024, the updated mOS (95%CI) were 17.1m (11.4, NE) vs. 12.0m (9.7, 15.4) of two arms (HR=0.73, 95%CI: 0.48, 1.12).",,"95%CI: 0.48, 1.12",,"HR=0.73, 95%CI: 0.48, 1.12",False,344
+"By supplementary analysis excluding the impact of crossover treatment, the HR of OS was 0.59 (95%CI: 0.37, 0.93).",,"95%CI: 0.37, 0.93",,"HR of OS was 0.59 (95%CI: 0.37, 0.93)",True,345
+"in the intent-to-treat population the hazard ratio (HR) for OS adjusted for stratification factors after concTMZ was 0.906 (95%CI 0.760, 1.082; p=0.28)",0.28,"95%CI 0.760, 1.082",,"HR...0.906 (95%CI 0.760, 1.082)",False,58
+"after adjTMZ 0.647 (95%CI 0.541, 0.773; p <0.0001)",0.0001,"95%CI 0.541, 0.773",,"HR...0.647 (95%CI 0.541, 0.773)",True,57
+For patients with IDHmt tumors the HR for concTMZ was 0.81 (95% CI 0.63-1.04; p=0.09),0.09,95% CI 0.63-1.04,,HR for concTMZ was 0.81 (95% CI 0.63-1.04),False,56
+"for adjTMZ 0.54 (95% CI 0.42-0.69,p < 0.0001)",0.0001,95% CI 0.42-0.69,,HR...for adjTMZ 0.54 (95% CI 0.42-0.69),True,55
+No benefit was observed of concTMZ in IDHmt glioma patients that also received adjTMZ (HR 0.92 95% CI 0.63-1.36; p=0.69),0.69,95% CI 0.63-1.36,,HR 0.92 95% CI 0.63-1.36,False,53
+the median OS in patients treated with adjTMZ was 12.5 years (95% CI 9.4-15.0; p<0.0001),0.0001,95% CI 9.4-15.0,,,True,54
+"patients with ≥30% intense and complete CEA staining in tumor cells and no brain metastases showed better PFS (72.7% vs. 25.0%, p=0.03)",0.03,,,,True,237
+"patients with ≥30% intense and complete CEA staining in tumor cells and no brain metastases showed better... OS (90.9% vs. 0%, p=0.003)",0.003,,,,True,236
+"The CCRT+T group had higher... objective response rates (ORR) compared to the CCRT group, with... ORR rates of 100% versus 84.6% (p = 0.046).",0.046,,,,True,82
+There was no significant difference in the incidence of acute adverse reactions between the two groups (P > 0.05).,,,,,True,83
+"no statistical difference was observed in the... PFS (p = 0.716) between the two groups, as shown by the Kaplan-Meier survival curves.",0.716,,Kaplan-Meier survival curves,,False,78
+"no statistical difference was observed in the OS (p = 0.414)... between the two groups, as shown by the Kaplan-Meier survival curves.",0.414,,Kaplan-Meier survival curves,,False,77
+"The CCRT+T group had higher complete response (CR)... rates compared to the CCRT group, with CR rates of 44.4% versus 19.2% (p = 0.035)",0.035,,,,True,80
+the double positive T lymphocyte subset percent (p = 0.025)... showed significant increases.,0.025,,,,True,81
+absolute CD4+T lymphocyte count (p = 0.047) showed significant increases.,0.047,,,,True,79
+"The median PFS evaluated by IRC was 9.89 months (95% CI 9.10, 11.56) in the ALTN group, 5.85 months (95% CI 3.58, 7.69) in the PLB group [HR 0.59 (95% CI 0.42,0.85), p= 0.0043].",0.0043,"95% CI 0.42,0.85",log-rank tests,"HR 0.59 (95% CI 0.42,0.85)",True,309
+"The ORR evaluated by IRC was 16.88% (95% CI 9.31,27.14) in the ALTN group, 5.26% (95% CI 1.45,12.93) in the PLB group [p= 0.0220].",0.022,"95% CI 9.31,27.14",exact binomial methods,,True,310
+"30 patients (83%) had surgery after neoadjuvant DTP, achieving R0/R1 resection in 29/30 (97%).",,,,,True,178
+"Mean surgical morbidity score (0-4 scale, 4=unresectable) improved from 3.3 to 1.6 after DTP (p<0.01).",0.01,"(-2.1, -1.3)",,"Surgical morbidity score change, mean (95% CI) -1.7 (-2.1, -1.3)",True,179
+"Complete pathologic responders had better 2-year OS than those with residual ATC (69% vs. 22%, p=0.02).",0.02,,,,True,177
+"Arm A: 44.1% (95% CI 27.2, 62.1); Arm B: 34.3% (95% CI 19.1, 52.2); Arm C: 2.9% (95% CI 0.07, 15.3). The abstract states: ""Arm A and B had comparable ORR... all statistically superior to Arm C.""",,"Arm A: (27.2, 62.1); Arm B: (19.1, 52.2); Arm C: (0.07, 15.3)",Cochran-Mantel-Haenszel test,"Rate difference (Arm A vs C): 41.2 (23.7, 58.6); Rate difference (Arm B vs C): 31.1 (14.6, 47.5)",True,323
+"Arm A: 82.4% (95% CI 65.5, 93.2); Arm B: 85.7% (95% CI 69.7, 95.2); Arm C: 61.8% (95% CI 43.6, 77.8). The abstract states: ""Arm A and B had comparable... DCR... all statistically superior to Arm C.""",,"Arm A: (65.5, 93.2); Arm B: (69.7, 95.2); Arm C: (43.6, 77.8)",Cochran-Mantel-Haenszel test,"Rate difference (Arm A vs C): 20.6 (0.06, 41.1); Rate difference (Arm B vs C): 23.9 (3.85, 43.9)",True,322
+"Arm A: 5.7 mo (95%CI 3.75, NR); Arm B: 7.4 mo (95%CI 3.91, NR); Arm C: 2.9 mo (95%CI 2.14, 3.71). The abstract states: ""Arm A and B had comparable... PFS, all statistically superior to Arm C.""",0.001,"Arm A: (3.75, NR); Arm B: (3.91, NR); Arm C: (2.14, 3.71)",stratified log - rank test,"mPFS Arm A: 5.7 (3.75, NR); mPFS Arm B: 7.4 (3.91, NR)",True,324
+DL +1 (tala 0.75 mg QD + taz 800 mg BID) was selected as the RP2D.,,,3+3 design,,True,150
+"Grade ≥3 treatment-related AEs were reported in 59% of pts (16/27), including thrombocytopenia (8/27, 29.6%), anemia (8/27, 29.6%), fatigue (4/27, 14.8%), neutropenia (3/27, 11.1%), lymphopenia (1/27, 3.7%), and hyperglycemia (1/27, 3.7%). 14 of 27 pts (51.8%) required dose reduction. The combination was associated with expected myelosuppression but otherwise acceptable safety profile.",,,,,True,151
+"During RT, ‘no nausea’ ... complain in placebo & experimental arms were 16.3 & 85.8% (p= <0.001)",0.001,,Pearson chi-square test,,True,40
+"During RT, ... ‘no vomiting’ complain in placebo & experimental arms were ... 74.5% & 95.9% (p= <0.001)",0.001,,Pearson chi-square test,,True,41
+Rescue therapy during RT required in 7.8% placebo &1.4% in experimental arm (p=0.008).,0.008,,Pearson chi-square test,,True,42
+Total number of vomiting episodes >15 times during RT in placebo & experimental arm were 9.2% & 2% (p=0.002).,0.002,,Pearson chi-square test,,True,39
+Mean anxiety score before & after RT in placebo was 13.2 (+/-2.5) &14.5 (+/-2.4) (p<0.001); in experimental arm 13.4 (+/-2.3) & 11.1 (+/-2.2) (p<0.001),0.001,,independent t-test,,True,36
+Mean depression score before & after RT in placebo & experimental arm were 11.9 (+/-1.6) & 13.7 (+/-1.8) (p<0.001); 11.9 (+/-1.6) & 9.7 (+/-1.6) (p<0.001),0.001,,independent t-test,,True,37
+The olanzapine group had more sleep hours/day (8.4 ±1.7 hours vs. 5.29 ±1.13 hours; p<0.001).,0.001,,independent t-test,,True,38
+Mean EORTC GHS QOL score at RT completion was 61.6 (+/- 8.6) in placebo arm and 62.9 (+/-9.2) in experimental arm (p=0.235).,0.235,,independent t-test,,False,35
+achieved in 92/109 (84%) patients receiving ROMI vs 20/56 (36%) receiving PBO (odds ratio 10.2; 95% CI 4.6-22.5; P<0.001),0.001,95% CI 4.6-22.5,,odds ratio 10.2; 95% CI 4.6-22.5,True,47
+"Median (range) Plt nadirs were ROMI 87 (14–167)×10^9/L, PBO 58 (22–95)×10^9/L; P=0.005.",0.005,,,,True,46
+"median (95% CI) time to first Plt response was ROMI 1.1 (not estimable) weeks, PBO 2.1 (1.1-3.0) weeks; P<0.001.",0.001,"ROMI: (not estimable), PBO: (1.1-3.0)",,,True,48
+"Median DFS was not reached (NR) vs 68.3 mo, respectively (HR 0.71, 95% CI 0.59−0.86); estimated DFS rate at 5 yrs was 60.9% vs 52.2%.",,95% CI 0.59−0.86,,"HR 0.71, 95% CI 0.59−0.86",True,130
+"Median OS was NR in both arms (HR 0.66, 95% CI 0.48−0.90); estimated OS rate at 5 yrs was 87.7% vs 82.3%, respectively.",,95% CI 0.48−0.90,,"HR 0.66, 95% CI 0.48−0.90",True,131
+No new serious treatment-related AEs have been reported for ≥3 years.,,,,,True,132
+"One patient in dose level 2 (25x10^6 cells) experienced a DLT (grade 3 hypertension). No additional DLTs were observed in this dose level after expansion to 6 patients, and the recommended phase 2 dose was established at 25x10^6 cells. Toxicity otherwise has been primarily related to tumor inflammation-associated neurotoxicity (TIAN), observed after 29 of 36 infusions (81%), and managed acutely with anakinra and dexamethasone.",,,,,True,61
+"Eleven patients were enrolled, underwent apheresis, and had B7H3-CART successfully manufactured.",,,,,True,60
+The cCR-rate was 38.7% (N = 12; 95%CI: 21.8-57.8),,95%CI: 21.8-57.8,,38.7% (N = 12; 95%CI: 21.8-57.8),True,136
+"luminal tumors showing higher ypT0 rates vs non-luminal (73 vs 25%, p = 0.04)",0.04,,,,True,137
+Higher stromal signature (> median) was associated with non-ypT0 response (p = 0.004),0.004,,,,True,135
+neither Trop2 (p = 0.15) ... gene expression were associated with ypT0 response.,0.15,,,,False,134
+neither ... TOP1 (p = 0.79) gene expression were associated with ypT0 response.,0.79,,,,False,133
+The number of ctDNA mutations (P < 0.001)... all decreased with therapeutic response.,0.001,,,,True,274
+mutation abundance (P < 0.001)... all decreased with therapeutic response.,0.001,,,,True,272
+mutation level (P < 0.001) all decreased with therapeutic response.,0.001,,,,True,273
+"With a median follow-up of 117.6 months, the 10-year DFS rate was 83.7% in the TAM + OFS group compared to 75.9% in the TAM-only group (hazard ratio [HR], 0.68; 95% CI, 0.53-0.87).",,"95% CI, 0.53-0.87",,"HR, 0.68; 95% CI, 0.53-0.87",True,162
+"there were no significant differences in 10-year OS: 94.6% in the TAM + OFS vs. 93.2% in the TAM-only group (HR, 0.79; 95% CI, 0.50-1.27).",,"95% CI, 0.50-1.27",,"HR, 0.79; 95% CI, 0.50-1.27",False,163
+"Among patients with a high composite risk score (4–5, n = 282, 36.3% of the HER2-negative cohort), the 10-year BCFI was significantly improved with OFS: 76.6% in the TAM + OFS group vs. 65.7% in the TAM-only group (HR, 0.62; 95% CI, 0.40–0.98).",,"95% CI, 0.40–0.98",Cox regression model,"HR, 0.62; 95% CI, 0.40–0.98",True,161
+"With 9 years median follow-up, OS was improved with NIVO+IPI vs SUN in ITT (HR 0.71) and I/P (HR 0.69) pts. The probability of OS at 108 months was 31% vs 20% in ITT pts and 30% vs 19% in I/P pts, respectively. In pts with FAV risk, the HR for OS improved from 1.45 at first report (Motzer NEJM 2018) to 0.80 at 9 years, showing a delayed benefit with NIVO+IPI vs SUN. OS probabilities at 108 months were 35% vs 22% in FAV pts, respectively. mOS (95% CI), mo: I/P NIVO+IPI 47 (35–56) vs SUN 26 (22–33). 108-mo OS probabilities (95% CI), %: I/P NIVO+IPI 30 (26–35) vs SUN 19 (15–23).",,"mOS (95% CI), mo: 47 (35–56) vs 26 (22–33); 108-mo OS probabilities (95% CI), %: 30 (26–35) vs 19 (15–23)",,HR 0.69,True,128
+"With 9 years median follow-up, OS was improved with NIVO+IPI vs SUN in ITT (HR 0.71)...pts. The probability of OS at 108 months was 31% vs 20% in ITT pts. mOS (95% CI), mo: ITT NIVO+IPI 53 (46–64) vs SUN 38 (32–44). 108-mo OS probabilities (95% CI), %: ITT NIVO+IPI 31 (27–35) vs SUN 20 (16–23).",,"mOS (95% CI), mo: 53 (46–64) vs 38 (32–44); 108-mo OS probabilities (95% CI), %: 31 (27–35) vs 20 (16–23)",,HR 0.71,True,129
+"ORR per IRRC (95% CI); CR, %: I/P NIVO+IPI 42 (38–47); 12 vs SUN 27 (23–32); 3.",,42 (38–47) vs 27 (23–32),,,True,127
+No new treatment-related deaths occurred in either arm. No new safety signals emerged.,,,,,True,125
+"The probability of remaining in response through 96 months with NIVO+IPI vs SUN was 48% vs 19% in ITT pts, 50% vs 23% in I/P pts, and 36% vs not available (NA) in FAV pts. mDOR (95% CI), mo: ITT 76 (59–NE) vs 25 (20–33); I/P 83 (54–NE) vs 20 (16–26); FAV 61 (23–NE) vs 33 (25–51).",,"mDOR (95% CI), mo: ITT 76 (59–NE) vs 25 (20–33); I/P 83 (54–NE) vs 20 (16–26); FAV 61 (23–NE) vs 33 (25–51)",,,True,126
+"the 2-year OS of whole cohort was 67.2%, and 73.8% vs 51.2% (P = 0.019) in reRT group vs no reRT group.",0.019,,,,True,186
+"The 2-year progression-free survival (PFS) of whole cohort was 47.9%, and 61.0% vs 24.3% (P < 0.0001) in reRT group vs no reRT group.",0.0001,,,,True,187
+The CR rate after neoadjuvant treatment was 36.0% (27 of 75) in the toripalimab arm and 13.3% (10 of 75) in the standard arm (P= 0.001).,0.001,,,,True,188
+The overall response rate (ORR) after neoadjuvant treatment was 94.7% (71 of 75) in the toripalimab arm and 85.3% (64 of 75) in the standard arm (P= 0.042).,0.042,,,,True,191
+Grade 3-4 acute treatment-related adverse events (trAEs) occurred in 50 (66.7%) patients in the toripalimab arm and46 (61.3%) patients in the standard arm (P= 0.496).,0.496,,,,True,189
+immune-related AEs (irAEs) reported in 5 (6.7%) patients in the toripalimab arm and none (0.0%) in the standard arm (P= 0.058).,0.058,,,,True,190
+"One DLT of Grade 3 enterocolitis was observed at dose level 50 mg/m². The most common Grade 3/4 AEs occurring in > 30% of patients, during the first 3 treatment cycles were: febrile neutropenia 13 (59.1%), neutropenia 13 (59.1%); leukopenia 12 (54.5%); anaemia 10 (45.5%), and lymphopenia 7 (31.8%).",,,,,True,12
+The HTD and RP2D of irinotecan in combination with IVA were established as 50 mg/m²/day.,,,,,True,10
+The HTD and RP2D of irinotecan in combination with IVA were established as 50 mg/m²/day.,,,,,True,11
+"The iTNBC cohort showed significantly longer OS (25.8 vs. 18 months, HR = 0.50, 95%CI: 0.26-0.98, p = 0.043) compared to cTNBC.",0.043,95%CI: 0.26-0.98,,"HR = 0.50, 95%CI: 0.26-0.98",True,26
+"With the caveat of comparing sequential cohorts, the iTNBC cohort showed a trend for higher ORR (47% vs. 23%, p= 0.08) ... compared to cTNBC. Confirmed ORR (CR+PR) for cTNBC was 7/30 (23%) and for iTNBC was 9/19 (47%).",0.08,,,,False,25
+"The iTNBC cohort showed... longer median PFS (8.4 vs. 5.5 months, HR = 0.68, 95%CI: 0.37-1.24)... compared to cTNBC.",,95%CI: 0.37-1.24,,"HR = 0.68, 95%CI: 0.37-1.24",False,28
+"PD-L1 expression, while not different at baseline, remained unchanged in cTNBC but increased significantly in iTNBC (p< 0.02), possibly reflecting pembrolizumab-driven immune modulation.",0.02,,,,True,27
+"Across both cohorts higher LNR was associated with improved OS (R= 0.37, p= 0.0075)",0.0075,,,R= 0.37,True,23
+"conversely, higher MLR was associated with poorer OS (R= -0.46, p= 0.00087).",0.00087,,,R= -0.46,True,24
+"Regarding the quality of life analysis, in the overall assessment date were not statistically significant...",,,paired t-test or signed-rank test,,False,51
+"difference was observed in the levels of insomnia (p-value 0.01) ... between patients in the CBD and placebo groups, with results favoring the CBD group.",0.01,,paired t-test or signed-rank test,,True,50
+"difference was observed in the levels of ... dyspnea (p-value 0.02) between patients in the CBD and placebo groups, with results favoring the CBD group.",0.02,,paired t-test or signed-rank test,,True,49
+"3 of the first 19 recruited patients achieved an objective response (15.8%, 95% confidence interval (CI) 3.4 - 39.6; 3 partial and no complete responses)",,95% confidence interval (CI) 3.4 - 39.6,Simon 2 stage statistical design,"15.8%, 95% confidence interval (CI) 3.4 - 39.6",False,145
+Adverse events were predominantly disease related. Atezolizumab was well tolerated with no new safety signals observed relating to this treatment.,,,,,True,146
+"In the mITT analysis, the pCR rate was 26.8% vs. 15.4% vs. 9.8% among the 3 groups, respectively. For mFOLFOXIRI+AK104 (A) vs mFOLFOX6 (C), the result was 11 (26.83%) vs 4 (9.76%).",0.046,,,,True,111
+"The MPR rate was 68.3%, 48.7% and 43.9%, respectively. For mFOLFOXIRI+AK104 (A) vs mFOLFOX6 (C), the result was 28 (68.3%) vs 18 (43.9%).",0.026,,,,True,110
+"The downstaging (ypStage 0 to 1) was 65.9%, 46.2% and 41.5%, respectively. For mFOLFOXIRI+AK104 (A) vs mFOLFOX6 (C), the result was 27 (65.9%) vs 17 (41.5%).",0.026,,,,True,109
+"the pCR rates were 30.6%, 17.1%, and 10.8%, respectively. For mFOLFOXIRI+AK104 (A) vs mFOLFOX6 (C), the result was 11 (30.6%) vs 4 (10.8%).",0.036,,,,True,112
+"There was no dose-limiting toxicity (DLT), treatment-emergent ICU transfer, or treatment-related mortality (TRM). Eight pts had G≥3 nonhematologic TEAEs (events in > 1 pt: hyponatremia, hypokalemia [n = 2 each]). One pt reported 2 OBX-115–related serious AEs, including 1 CRS event (G2) without IL6 elevation (IL6 < 100 pg/mL).",,,,,True,251
+ACZ redosing is well-tolerated.,,,,,True,252
+"The RP2D was determined as Fluzoparib 0.1g bid. plus Dalpiciclib 0.15g qd, d1-d21, q4w.",,,i3+3 dose escalation design,,True,33
+"The most common treatment-emergent AEs (TEAEs, ≥20%) were leukopenia, neutropenia, etc. 3 pts (25%) had grade ≥3 TRAEs and no drug-related AEs led to death. In Cohort 4, 1 pt experienced dose-limiting toxicity (DLT) of grade 3 thrombocytopenia, and the other 1 pt experienced DLT of severe stun.",,,,,True,32
+"Median PFS by Blinded Independent Central Review (BICR) met the primary endpoint at 3.42 months (95% CI: 2.60, 6.83) for (C) and 1.41 months (95% CI: 1.35, 4.86) for (P) with a p-value of 0.0265 and a HR of 0.536 (95% CI: 0.307, 0.936).",0.0265,"95% CI: 0.307, 0.936",Log Rank test,"HR of 0.536 (95% CI: 0.307, 0.936)",True,31
+"Median PFS for patients stratified at ≤ 3 prior lines was 4.86 months (95% CI: 2.04, 8.94) for (C) and 1.41 months (95% CI: 1.31, 4.86) for (P) with a p-value of 0.0046 and a HR of 0.386 (95% CI: 0.196, 0.760).",0.0046,"95% CI: 0.196, 0.760",,"HR of 0.386 (95% CI: 0.196, 0.760)",True,30
+The trial met its primary endpoint with an MRD-neg rate after consolidation of 73.2% in the MRD-analysis population (153/209; 10 not assessable).,,,,,True,220
+"Reaching and remaining in MRD-neg state led to a significant PFS benefit (hr 0.16 [0.08;0.32], time-dependent Cox regression).",,[0.08;0.32],time-dependent Cox regression,hr 0.16 [0.08;0.32],True,219
+"Overall, 73 treatment-emergent adverse events (TEAEs) were reported in 5 patients (n = 73; N = 5). Most TEAEs were NCI-CTCAE Grade 1 (n = 38; N = 5) or Grade 2 (n = 26; N = 5). The most common Grade 1 and Grade 2 TEAEs were diarrhea (n = 4; N = 3) and hypokalemia (n = 3; N = 3), respectively. Of the Grade 3 TEAEs (n = 9; N = 4), the most reported were platelet count decreased (n = 3; N = 1). Of all TEAEs, 31 events were related to both PBP1510 and gemcitabine (n = 31; N = 4). The most reported TEAEs related to PBP1510 only and to gemcitabine only were diarrhea (n = 2; N = 1) and platelet count decreased (n = 8; N = 1), respectively. Most treatment-related TEAEs were Grade 1 (n = 14; N = 3) or Grade 2 (n = 13; N = 4). Clinically significant laboratory abnormalities were observed for hematology (n = 7; N = 5; Grade 1-3) and blood chemistry (n = 4; N = 2; Grade 1-2). No DLTs and no serious TEAEs were reported.",,,,,True,284
+Interim safety data from the dose-escalation of PBP1510 demonstrate acceptable tolerability at up to 3 mg/kg in combination with gemcitabine in metastatic pancreatic adenocarcinoma patients who had failed previous treatment(s).,,,,,True,285
+No DLTs and no serious TEAEs were reported.,,,,,True,283
+"TEAEs occurred in 12 (92.3%) patients, and ≥Grade 3 TEAEs occurred in 6(46.2%) patients. The most common≥Grade 3 TEAEs is hematological AEs, including lymphopenia (8.3%), neutropenia (8.3%) and thrombocytopenia (8.3%). Two patients (16.7%) reported serious TEAEs, including edema and cardiac failure reported by the SS patient which was assessed as not related to ICP-B05, and thrombocytopenia and anemia reported by a MF patient. There was no fatal TEAE reported.",,,,,True,67
+"PD analysis demontrated significant depletion of CCR8-expressing cells in CTCL skin lesions. Significant reduction of CCR8+ malignant T cells (-80%) and CCR8+ regulatory T cells (Treg, -68%) were observed at C3D1 compared with baseline in the skin lesion. Similar PD effects were observed in the peripheral blood as well with an average decrease of 91% in CCR8+ malignant T cells and 16% in Treg at C3D1 when compared with baseline.",,,,,True,66
+The Part 2 dose of Adrixetinib is confirmed at 120 mg.,,,mTPI design,,True,73
+"there were no treatment discontinuations due to the treatment-related AEs (TRAEs). Most common TRAEs ≥10% were AST increase (51.7%), ALT increase (41.3%), CPK increase (37.8%) and LDH increase (34.5%). One patient dosed at 120 mg experienced 1 DLT (G3 skin rash and G3 diarrhea).",,,,,True,75
+"Overall response assessment (RECIST 1.1) included 1 confirmed complete response (CR) in a patient with metastatic gastric cancer (GC) and 6 patients with stable disease (SD) across multiple tumor types. Among 6 SD patients, 1 GC and 1 hepatocellular cancer (HCC) patient continued treatment for ≥24 weeks.",,,RECIST 1.1,,True,74

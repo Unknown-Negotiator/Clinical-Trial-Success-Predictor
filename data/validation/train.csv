@@ -1,0 +1,254 @@
+abstract_id,endpoint_name,endpoint_decision_rule,endpoint_type,endpoint_id
+3764,safety,No increase in the incidence of adverse events and no grade 3/4 treatment-related adverse events.,secondary,293
+3392,overall response rate (ORR),An ORR ≥ 60% was considered worthy of further study.,primary,168
+3065,progression free survival (PFS) in randomized patients,Statistical significance is achieved if p < 0.05.,primary,148
+3065,overall survival,Statistical significance is achieved if p < 0.05.,not_stated,147
+17,"event-free survival (EFS = absence of progression, recurrence, 2 consecutive CA19.9 increases ≥20% separated by ≥ 4 weeks, unresectability, intra-operative metastasis, death)",With 173 events (260 pts) the study has a power of 80% to demonstrate a statistically significant difference at 5% two sided stratified logrank test under the alternative hypothesis of HR=0.65.,primary,325
+3620,ORR by ICR,The observed ORR must be greater than a pre-specified threshold for success.,primary,176
+97,dose-limiting toxicity (DLT),3+3 design,primary,16
+97,determination of the maximum tolerated dose (MTD),3+3 design,primary,15
+2943,CRR at 3 mo,"Demonstrate a 53% CRR for the combination, based on a Pem historical control of 41% (one-sided alpha 0.05, power 82%).",primary,142
+1469,HHV-8 DNA decline,p < 0.05 for statistical significance,exploratory,264
+1469,HIV-VL changes,No significant change in HIV-VL,exploratory,265
+1469,CD4 changes,No significant change in CD4 count,exploratory,263
+1469,T-regs increase,p < 0.05 for statistical significance,exploratory,267
+1469,macrophages decrease,p < 0.05 for statistical significance,exploratory,268
+1469,"Rise in NK, CD4, and CD8 naïve cells",p < 0.05 for statistical significance,exploratory,266
+3720,major pathologic response (MPR),rejecting the null hypothesis if 10 or more responses (37%) are observed in 27 pts,primary,192
+4375,progression-free survival (PFS) from randomization,p < 0.05 for statistical significance,primary,229
+327,OS in patients with irAE vs without,Superiority vs. null hypothesis of no difference (p < 0.05),exploratory,21
+327,PFS in patients with PDL1 CPS ≥10 vs lower,Superiority vs. null hypothesis of no difference (p < 0.05),exploratory,22
+327,OS in patients with high TILs vs low,Superiority vs. null hypothesis of no difference (p < 0.05),exploratory,20
+327,Association of DNA repair pathway activation with PFS,Superiority vs. null hypothesis of no association (p < 0.05),exploratory,17
+327,Association of MYC target pathway activation with PFS,Superiority vs. null hypothesis of no association (p < 0.05),exploratory,19
+327,Association of KRAS signaling activation with OS,Superiority vs. null hypothesis of no association (p < 0.05),exploratory,18
+65,disease free survival (DFS) (T+OFS vs T in SOFT),Superiority (95% CI for HR excludes 1),primary,154
+65,invasive breast cancer-free interval (BCFI) (T+OFS vs T in SOFT),Superiority (95% CI for HR excludes 1),secondary,157
+65,disease free survival (DFS) (E+OFS vs T in SOFT),Superiority (95% CI for HR excludes 1),primary,152
+65,overall survival (OS) (T+OFS vs T in SOFT),Superiority (95% CI for HR excludes 1),secondary,160
+65,overall survival (OS) (E+OFS vs T in SOFT),Superiority (95% CI for HR excludes 1),secondary,158
+65,disease free survival (DFS) (E+OFS vs T+OFS in TEXT+SOFT),Superiority (95% CI for HR excludes 1),primary,153
+65,invasive breast cancer-free interval (BCFI) (E+OFS vs T+OFS in TEXT+SOFT),Superiority (p < 0.05),secondary,156
+65,distant recurrence free interval (DRFI) (E+OFS vs T+OFS in TEXT+SOFT),Superiority (p < 0.05),secondary,155
+65,overall survival (OS) (E+OFS vs T+OFS in TEXT+SOFT),Superiority (95% CI for HR excludes 1),secondary,159
+1118,1-year progression-free survival (PFS) rate from the initiation of chemoradiotherapy with TMZ,"threshold 1-year PFS, 27%",primary,63
+450,analysis of adverse events and dose-limiting toxicity (DLT),Determine if the combination has an acceptable safety profile and identify any dose-limiting toxicities.,primary,261
+2641,recurrence-free survival (RFS),p < 0.05 for statistical significance,primary,281
+1895,disease control rate (DCR),the study would be considered positive if 4 or more pts achieve disease control among 25 pts in the second stage,primary,107
+1608,dose-limiting toxicity,Absence of dose-limiting toxicity at a given dose level.,primary,93
+1608,treatment related adverse events (TRAEs),Acceptable safety and tolerability profile.,secondary,94
+2329,dose-limiting toxicities (DLTs) within the first 28 days,"Determine the recommended phase 2 dose (RP2D) of S for dose expansion in phase 2 part based on dose-limiting toxicities (DLTs) within the first 28 days in a ""3+3"" algorithm.",primary,123
+2329,ORR in patients with DDR-related mutations vs without,p < 0.05 for statistical significance,exploratory,120
+2329,PFS in patients with DDR-related mutations vs without,p < 0.05 for statistical significance,exploratory,122
+2329,OS in patients with DDR-related mutations vs without,p < 0.05 for statistical significance,exploratory,121
+1698,objective response rate (ORR) by independent central review (ICR) in Group A,"The primary endpoint is met if the p-value from a one-sided test is < 0.05, testing the null hypothesis that the true objective response rate is ≤ 5%.",primary,99
+1698,objective response rate (ORR) by independent central review (ICR) in Group B,"The primary endpoint is met if the p-value from a one-sided test is < 0.05, testing the null hypothesis that the true objective response rate is ≤ 5%.",primary,100
+1698,objective response rate (ORR) by independent central review (ICR) in Group C,"The primary endpoint is met if the p-value from a one-sided test is < 0.05, testing the null hypothesis that the true objective response rate is ≤ 5%.",primary,101
+3719,Pain scores,P-value < 0.05 was considered significant.,not_stated,290
+3719,Swallowing difficulties,P-value < 0.05 was considered significant.,not_stated,292
+3719,Speech-related challenges,P-value < 0.05 was considered significant.,not_stated,291
+3719,Fatigue scores,P-value < 0.05 was considered significant.,not_stated,288
+3719,Emotional well-being,P-value < 0.05 was considered significant.,not_stated,287
+3719,Overall HRQoL scores,P-value < 0.05 was considered significant.,not_stated,289
+1825,etoposide exposure,Absence of major changes in etoposide exposure.,not_stated,271
+1825,Debio 0123 PK,Consistency with previously reported monotherapy PK data.,not_stated,270
+2747,toxicity,No new and unexpected (S)AEs.,secondary,282
+1049,Feasibility of a decentralized trial assessing neurocognitive outcomes,Feasibility is demonstrated by high completion rates of questionnaires and cognitive evaluations.,exploratory,262
+14,IRC-assessed PFS,non-inferiority margin HR≤1.09,primary,311
+1152,safety and tolerability,Assess safety and tolerability according to NCI-CTCAE v.5.0.,primary,65
+1618,maximum tolerated dose,"Dose-limiting toxicities assessed during Cycle 1 based on a ""3+3 design"".",primary,96
+4795,ORR,the trial will be discontinued at this stage if fewer than 2 Pts demonstrate a response,primary,296
+4390,major pathological response (MPR),"Simon’s design (P0=20%, P1=40%)",primary,230
+3905,complete hematological remission,Achieve complete hematological remission.,not_stated,197
+3905,molecular remission,Achieve molecular remission.,not_stated,198
+3905,prolonged neutropenia (> 28 days),No occurrence of prolonged neutropenia (> 28 days).,not_stated,199
+3905,severe mucositis (Grade 3 or 4),No occurrence of severe mucositis (Grade 3 or 4).,not_stated,200
+3905,cardiotoxicity,No occurrence of cardiotoxicity.,not_stated,196
+3905,DIC,No occurrence of DIC.,not_stated,195
+1325,maximum tolerated dose (MTD),Determine the maximum tolerated dose (MTD).,primary,89
+4540,major pathologic response (MPR),The study would be stopped early if ≤one of eight patients achieving MPR at Stage 1.,primary,295
+4719,superiority of Afa over Osi at 3-year survival rate,Superiority of Afa over Osi at 3-year survival rate,co-primary,248
+4719,exploration of immunological biomarkers for treatment outcomes,Exploration of immunological biomarkers for treatment outcomes,co-primary,247
+4719,Progression-free survival (PFS),p < 0.05 for statistical significance,not_stated,246
+4719,Overall survival (OS),p < 0.05 for statistical significance,not_stated,243
+4719,PFS in Osi-treated pts with high Th7R,p < 0.05 for statistical significance,exploratory,245
+4719,OS in Osi-treated pts with high Th7R,p < 0.05 for statistical significance,exploratory,242
+4719,PFS in Osi-treated pts with high Th2,p < 0.05 for statistical significance,exploratory,244
+4719,OS in Osi-treated pts with high Th2,p < 0.05 for statistical significance,exploratory,241
+1058,objective response rate (ORR; partial plus complete) per RANO (cohort A),ORR > 28%,primary,59
+1372,tolerability,Absence of Dose-Limiting Toxicities (DLTs),not_stated,257
+1372,Dose-Limiting Toxicities (DLTs),Absence of DLTs in a given cohort.,not_stated,256
+4334,"incidence of adverse events (AEs), including dose-limiting toxicities (DLTs)",Dose escalation was conducted using a modified toxicity probability interval method.,primary,221
+5327,12-month progression-free survival (PFS) rates for patients with refractory and progressive disease,p < 0.05 for statistical significance,not_stated,307
+5327,12-month overall survival (OS) rates for patients with refractory and progressive disease,p < 0.05 for statistical significance,not_stated,306
+5327,12-month PFS rate for patients who received sintilimab therapy compared to those who did not,p < 0.05 for statistical significance,not_stated,305
+41,1st progression-free survival (PFS),Superiority hypothesis with p < 0.05,secondary,317
+41,1st objective response rate (ORR),Superiority hypothesis with p < 0.01,secondary,316
+41,1st disease control rate (DCR),Superiority hypothesis with p < 0.01,secondary,315
+41,2nd progression-free survival (PFS),Superiority hypothesis with p < 0.05,secondary,321
+41,2nd objective response rate (ORR),Superiority hypothesis with p < 0.01,secondary,320
+41,2nd disease control rate (DCR),Superiority hypothesis with p < 0.05,secondary,319
+41,"2nd PFS, Per protocol population",Superiority hypothesis with p < 0.05,exploratory,318
+233,treatment-related adverse events (AEs),Absence of significant toxicities or treatment-related deaths and a manageable safety profile.,secondary,260
+3742,best overall response (BOR) rate,">4 responses among 32 pts would be considered positive (BOR 5% vs 20%, 1-sided alpha 0.1, power 0.9)",primary,194
+6108,dose-limiting toxicities (DLT),Establish the recommended Phase 2 dose (RP2D) using a 3+3 design.,not_stated,34
+209,maximum-tolerated dose (MTD),Pts were treated according to a traditional 3+3 dose-escalation algorithm,primary,259
+209,incidence of dose-limiting toxicities (DLTs),Pts were treated according to a traditional 3+3 dose-escalation algorithm,primary,258
+2248,OS,Superiority based on p < 0.05,primary,113
+2248,Perioperative morbidity,No significant difference in harm,secondary,114
+1201,occurrence of adverse events and dose-limiting toxicities,"Occurrence of dose-limiting toxicities and specific adverse events (neurotoxicity, cytokine release syndrome > Grade 2, graft-versus-host disease).",primary,70
+3925,Overall Response Rate (ORR),p < 0.05 for statistical significance,not_stated,208
+3925,composite complete response (CRc),p < 0.05 for statistical significance,not_stated,210
+3925,measurable residual disease (MRD) negativity,p < 0.05 for statistical significance,not_stated,211
+3925,C0,p < 0.05 for statistical significance,exploratory,203
+3925,Cmax,p < 0.05 for statistical significance,exploratory,204
+3925,AUC(0–24),p < 0.05 for statistical significance,exploratory,202
+3925,Neutropenic phase duration,p < 0.05 for statistical significance,not_stated,207
+3925,Febrile neutropenia,p ≥ 0.05 for no significant difference in harm,exploratory,206
+3925,Culture-positive infections,p ≥ 0.05 for no significant difference in harm,exploratory,205
+3925,Treatment-related death,Absence of treatment-related death,exploratory,209
+6221,rate of treatment success 8 weeks after the start of steroid administration,"The primary hypothesis was that a 3-week treatment would be non-inferior to a 6-week treatment, with a non-inferiority margin of 16 percentage points.",primary,45
+6221,exploratory superiority analysis of the rate of treatment success,Superiority is met if p < 0.05.,exploratory,43
+6221,quality of life,Superiority is met if the 95% CI for the difference excludes 0.,secondary,44
+1292,safety,Establish a manageable safety profile.,primary,72
+1292,dose-limiting toxicities (DLTs),Absence of dose-limiting toxicities at the tested dose levels.,primary,71
+3359,objective response rate,H0 5%; Ha 25%; 5 pts with objective responses were needed to declare the combination worthy of further study.,co-primary,169
+3359,rate of PFS at 6 months,H0 10%; Ha 30%; 6 pts progression-free and alive at 6 mos were needed to declare the combination worthy of further study.,co-primary,170
+1598,safety and tolerability,Absence of dose-limiting toxicities.,primary,91
+1598,CAR T expansion,Detection of A2B694 post-infusion in peripheral blood.,exploratory,90
+1598,tumor infiltration,Detection of A2B694 in a tumor biopsy.,exploratory,92
+3924,Dose-limiting toxicity (DLT),"Dose-limiting toxicity (DLT) and the maximum tolerated dose (MTD) were evaluated using accelerated titration and ""3+3"" escalation",primary,201
+7,investigator-assessed rPFS (time from randomization to radiographic progression or death),"HR ≤0.64 to demonstrate efficacy (2-sided α, 0.025; power, 91%)",primary,327
+7,time to symptomatic progression (TSP),p < 0.05 for superiority,secondary,329
+7,overall survival (OS),p < 0.05 for superiority,secondary,328
+4860,incidence and severity of irAEs,p < 0.05 for statistical significance,primary,302
+4860,objective response rate (ORR) by RECIST v1.1,p < 0.05 for statistical significance,secondary,304
+4860,analysis results of 16s rRNA and metabolomics detection of fecal samples,p < 0.05 for statistical significance,exploratory,301
+4860,median onset time of irAEs,p < 0.05 for statistical significance,not_stated,303
+92,centrally assessed residual cancer burden (RCB),Detect a RCB 0/I difference of 31% with 80% power at a two-sided alpha of 0.05.,primary,164
+2345,objective response rate (ORR),Increase the objective response rate (ORR) from 50% to 68%; met if a total of 23 patients achieve objective responses based on Simon's minimax two-stage design.,primary,124
+5023,rate of grade (gr) 3-5 irAEs,"The observed rate of grade 3-5 irAEs is significantly different from the known irAE rate of Nivo, Rela, and Ipi, tested with a 2-sided alpha = 0.05.",co-primary,250
+5023,Circulating IL-6 signaling mediators,A significant change from baseline (P < 0.05).,exploratory,249
+5052,rate of pts maintaining sonidegib 12 months after study enrolment,The rate of patients maintaining sonidegib at 12 months should be at least 60% (H1) versus a null hypothesis of 31% (H0).,primary,253
+1633,disease control (DC) in BC cohort,"If ≥7 of 28 pts had DC, the null DC rate was rejected.",primary,97
+1633,disease control (DC) in OC cohort,"If ≥7 of 28 pts had DC, the null DC rate was rejected.",primary,98
+4112,PK exposure,No significant difference in PK exposure between monotherapy and combination therapy.,exploratory,218
+4112,ADA incidence rate,No significant difference in ADA incidence rate between monotherapy and combination therapy.,exploratory,217
+15,overall survival (OS),p < 0.05 for statistical significance,secondary,334
+15,Grade 3/4 hematological toxicities,p < 0.05 for statistical significance,secondary,331
+15,Grade 3/4 gastrointestinal toxicities,p < 0.05 for statistical significance,secondary,330
+15,global health status,p < 0.05 for statistical significance,secondary,333
+15,erectile dysfunction-related bother,p < 0.05 for statistical significance,secondary,332
+3614,disease control (DC),"If ≥7 of 28 pts had DC, the null DC rate was rejected.",primary,286
+291,progression-free survival (PFS),targeting an improvement from 8 to 12 months,primary,14
+291,correlations between intrinsic subtype and treatment efficacy,Test for significant correlation between intrinsic subtype and efficacy.,exploratory,13
+107,pCR rate in patients with TASOR2 or MST1R mutation,p < 0.05 for statistical significance,exploratory,173
+107,pCR rate in patients with CCND1 amplification,p < 0.05 for statistical significance,exploratory,172
+5216,Safety,Assess the incidence and severity of dose-limiting toxicities (DLTs) and adverse events (AEs).,primary,3
+5216,Recommended phase 2 dose (RP2D),Confirm the recommended phase 2 dose (RP2D) based on dose-limiting toxicities.,primary,2
+5216,Best Overall Response rate,Achieve a pre-specified rate of Best Overall Response.,secondary,1
+4727,changes in circulating tumor DNA (ctDNA) and their correlation with clinical outcomes,p < 0.05,exploratory,240
+5227,event-free survival time (EFS),Pr[true hazard ratio > 1 | data],primary,5
+5227,overall survival time (OS),Pr[true hazard ratio > 1 | data],secondary,6
+1288,safety,Absence of treatment-related serious or grade > 3 adverse events.,primary,76
+19,ORR assessed by BICR,p < 0.05 for statistical significance,primary,343
+19,PFS assessed by BICR,p < 0.05 for statistical significance and HR CI < 1,primary,346
+19,OS,HR CI must exclude 1 for statistical significance,primary,344
+19,OS (supplementary analysis),HR CI must exclude 1 for statistical significance,exploratory,345
+1052,Overall survival (OS) after concurrent (conc) TMZ in the intent-to-treat population,"Superiority of concurrent TMZ vs. no concurrent TMZ, inferred as requiring p < 0.05 and HR < 1 with CI excluding 1.",not_stated,58
+1052,Overall survival (OS) after adjuvant (adj) TMZ in the intent-to-treat population,"Superiority of adjuvant TMZ vs. no adjuvant TMZ, inferred as requiring p < 0.05 and HR < 1 with CI excluding 1.",not_stated,57
+1052,OS for concTMZ in patients with IDHmt tumors,"Superiority of concurrent TMZ vs. no concurrent TMZ in the IDHmt subgroup, inferred as requiring p < 0.05 and HR < 1 with CI excluding 1.",not_stated,56
+1052,OS for adjTMZ in patients with IDHmt tumors,"Superiority of adjuvant TMZ vs. no adjuvant TMZ in the IDHmt subgroup, inferred as requiring p < 0.05 and HR < 1 with CI excluding 1.",not_stated,55
+1052,Benefit of concTMZ in IDHmt glioma patients that also received adjTMZ,"Superiority of concurrent TMZ vs. no concurrent TMZ in the IDHmt + adjuvant TMZ subgroup, inferred as requiring p < 0.05 and HR < 1 with CI excluding 1.",not_stated,53
+1052,Median OS in patients treated with adjTMZ,"Statistical significance of the median OS estimate, inferred as requiring p < 0.05.",not_stated,54
+4638,Progression-Free Survival (PFS) in patients with ≥30% intense and complete CEA staining in tumor cells and no brain metastases,p < 0.05 for superiority,not_stated,237
+4638,Overall Survival (OS) in patients with ≥30% intense and complete CEA staining in tumor cells and no brain metastases,p < 0.05 for superiority,not_stated,236
+1318,objective response rate,p < 0.05 for statistical significance,primary,82
+1318,toxicity,P > 0.05 for no significant difference,secondary,83
+1318,PFS,p < 0.05 for statistical significance,secondary,78
+1318,OS,p < 0.05 for statistical significance,secondary,77
+1318,complete response (CR) rates,p < 0.05 for statistical significance,not_stated,80
+1318,double positive T lymphocyte subset percent,p < 0.05 for statistical significance,exploratory,81
+1318,absolute CD4+T lymphocyte count,p < 0.05 for statistical significance,exploratory,79
+46,Independent Review Committee (IRC)-assessed PFS,"Detect a hazard ratio of 0.58, at a two-sided alpha level of 5%.",primary,309
+46,objective response rate (ORR),p < 0.05,secondary,310
+3632,R0/R1 resection rate,Improvement over historical R0/R1 resection rate of 5%,primary,178
+3632,Surgical morbidity score,p < 0.05 for superiority (improvement),not_stated,179
+3632,2-year OS by pathologic response status,p < 0.05 for superiority,exploratory,177
+48,ORR per RECIST v1.1 by investigator,Superiority based on Cochran-Mantel-Haenszel test for rate difference.,primary,323
+48,DCR,Superiority based on Cochran-Mantel-Haenszel test for rate difference.,not_stated,322
+48,mPFS,p < 0.05 for superiority,not_stated,324
+3123,Recommended phase 2 dose (RP2D),dose escalation/de-escalation of both agents by up to 2 dose levels based on a 3+3 design to define the recommended phase 2 dose (RP2D),primary,150
+3123,Safety,Assess preliminary safety,secondary,151
+6196,nausea prevention,Superiority is met if p < 0.05,primary,40
+6196,no emesis,Superiority is met if p < 0.05,secondary,41
+6196,no rescue medications,Superiority is met if p < 0.05,secondary,42
+6196,Total number of vomiting episodes >15 times,Superiority is met if p < 0.05,not_stated,39
+6196,Mean anxiety score,Superiority is met if p < 0.05,not_stated,36
+6196,Mean depression score,Superiority is met if p < 0.05,not_stated,37
+6196,Sleep hours/day,Superiority is met if p < 0.05,not_stated,38
+6196,Mean EORTC GHS QOL score,Superiority is met if p < 0.05,not_stated,35
+6202,no CIT-induced dose modification of any myelosuppressive agent in either the second or third chemotherapy cycle,Superiority vs placebo based on p-value < alpha,primary,47
+6202,Median Plt nadirs,Superiority vs placebo based on p-value < alpha,not_stated,46
+6202,time to first Plt response,Superiority vs placebo based on p-value < alpha,not_stated,48
+2877,disease-free survival (DFS),"Superiority of pembrolizumab over placebo, defined by a Hazard Ratio (HR) with a 95% confidence interval upper bound of <1.0.",primary,130
+2877,overall survival (OS),"Superiority of pembrolizumab over placebo, defined by a Hazard Ratio (HR) with a 95% confidence interval upper bound of <1.0.",key secondary,131
+2877,serious treatment-related AEs,Absence of new safety signals.,not_stated,132
+1088,safety,"Adverse events within 28 days of first dose and at least possibly related to B7H3-CART were considered dose-limiting toxicities (DLTs) if meeting additional criteria: any grade 5 toxicity, grade 4 cytokine release syndrome, neutropenia, or thrombocytopenia lasting > 14 days, or any non-hematologic grade 3 toxicity lasting > 72 hours. Neurotoxicity was considered a DLT if grade 4 for > 96 hours or new-onset grade 3 for > 28 days.",primary,61
+1088,manufacturing feasibility,Successful manufacturing of B7H3-CART for enrolled patients.,primary,60
+2882,cCR rate,"H0≤30%, H1≥45%; for 2-stage design, ≥7 cCR needed in first stage of 23 pts.",primary,136
+2882,complete pathologic (ypT0) responses by Genomic Subtyping Classifier (GSC) groups,p < 0.05 for statistical significance,exploratory,137
+2882,association of stromal signature with non-ypT0 response,p < 0.05 for statistical significance,exploratory,135
+2882,association of Trop2 gene expression with ypT0 response,p < 0.05 for statistical significance,exploratory,134
+2882,association of TOP1 gene expression with ypT0 response,p < 0.05 for statistical significance,exploratory,133
+2120,decrease in the number of ctDNA mutations with therapeutic response,p < 0.05,exploratory,274
+2120,decrease in ctDNA mutation abundance with therapeutic response,p < 0.05,exploratory,272
+2120,decrease in ctDNA mutation level with therapeutic response,p < 0.05,exploratory,273
+73,disease free survival (DFS),Superiority is met if the upper bound of the 95% CI for the Hazard Ratio is less than 1.0.,primary,162
+73,overall survival (OS),Superiority is met if the upper bound of the 95% CI for the Hazard Ratio is less than 1.0.,secondary,163
+73,breast cancer-free interval (BCFI),Superiority is met if the upper bound of the 95% CI for the Hazard Ratio is less than 1.0.,post-hoc,161
+2892,overall survival (OS),Inferred superiority hypothesis (HR < 1),primary,128
+2892,overall survival (OS) in ITT,Inferred superiority hypothesis (HR < 1),secondary,129
+2892,independent radiology review committee (IRRC)-assessed objective response rate (ORR),Inferred superiority hypothesis (higher ORR is better),primary,127
+2892,Safety,No new safety signals,not_stated,125
+2892,duration of response (DOR),Inferred superiority hypothesis (longer DOR is better),not_stated,126
+3668,2-year overall survival (OS),p < 0.05 for statistical significance,primary,186
+3668,2-year progression-free survival (PFS),p < 0.05 for statistical significance,not_stated,187
+3679,Complete response (CR) rate after neoadjuvant treatment,Superiority based on p < 0.05,secondary,188
+3679,Overall response rate (ORR) after neoadjuvant treatment,Superiority based on p < 0.05,not_stated,191
+3679,Grade 3-4 acute treatment-related adverse events (trAEs),No significant difference in harm (p >= 0.05),not_stated,189
+3679,Immune-related AEs (irAEs),No significant difference in harm (p >= 0.05),not_stated,190
+5217,safety profile,"DLTs included Grade 3 diarrhoea, enterocolitis, ileus or oral mucositis persisting > 3 days; Grade 4 diarrhoea; neutropenia or thrombocytopenia delaying treatment > 7 days; Grade 3/4 toxicities resulting in treatment discontinuation, or any Grade 5 toxicity (death) related to trial treatment.",primary,12
+5217,highest tested dose (HTD),Determine the HTD based on the dose escalation schema ('rolling six design') and observed DLTs.,primary,10
+5217,recommended phase 2 dose (RP2D),Determine the RP2D based on the safety profile and DLTs observed during dose escalation using a rolling six design.,primary,11
+390,Overall Survival (OS),"Superiority of iTNBC vs cTNBC, defined as p < 0.05 or HR with 95% CI upper bound < 1.",not_stated,26
+390,Overall Response Rate (ORR),"Superiority of iTNBC vs cTNBC, defined as p < 0.05.",not_stated,25
+390,Progression-Free Survival (PFS),"Superiority of iTNBC vs cTNBC, defined as HR with 95% CI upper bound < 1.",not_stated,28
+390,PD-L1 expression change,"Significant change from baseline, defined as p < 0.05.",exploratory,27
+390,Association of LNR with OS,"Significant correlation, defined as p < 0.05.",exploratory,23
+390,Association of MLR with OS,"Significant correlation, defined as p < 0.05.",exploratory,24
+6278,"quality of life, assessed using the EORTC QLQ-C30 and its specific module for lung cancer (QLQ-LC13)",p < alpha for superiority,secondary,51
+6278,insomnia,p < 0.05 for superiority,secondary,50
+6278,dyspnea,p < 0.05 for superiority,secondary,49
+2958,best overall objective response rate (ORR; RECIST v1.1),"If ≥4 of the first 19 patients (Stage 1) achieved an objective response (confirmed partial or complete response), then recruitment would continue through Stage 2.",primary,145
+2958,safety and tolerability (CTCAEv5),No new or unexpected safety signals.,secondary,146
+1941,pCR rate in mITT population,p < 0.05 for superiority,primary,111
+1941,major pathological response (MPR) rate,p < 0.05 for superiority,secondary,110
+1941,downstaging (ypStage 0 to 1),p < 0.05 for superiority,not_stated,109
+1941,pCR rates in PP analysis,p < 0.05 for superiority,not_stated,112
+5020,safety (treatment-emergent adverse events [TEAEs]: AEs ≤30 d after OBX-115 infusion),Absence of dose-limiting toxicity (DLT),primary,251
+5020,tolerability in escalating dose levels of OBX-115 and ACZ to establish a recommended phase 2 dose (RP2D),Establish a recommended phase 2 dose (RP2D),primary,252
+6056,recommended phase 2 dose (RP2D),Establish the RP2D using a i3+3 dose escalation design.,primary,33
+6056,Safety and Tolerability,Assess safety and tolerability to determine DLTs and RP2D.,secondary,32
+6067,Progression-free survival (PFS),Superiority based on Log Rank test p-value < 0.05.,primary,31
+6067,PFS for patients stratified at ≤ 3 prior lines,Superiority based on p-value < 0.05.,not_stated,30
+4275,"minimal residual disease (MRD) negativity (NGF, 10-5) at the end of consolidation",MRD-neg rate ≤50%,primary,220
+4275,PFS benefit of reaching and remaining in MRD-neg state,Superiority based on CI for HR excluding 1,exploratory,219
+2744,Safety,Evaluate safety and tolerability in a 3+3 dose-escalation design.,primary,284
+2744,Tolerability,Evaluate safety and tolerability in a 3+3 dose-escalation design.,primary,285
+2744,Dose-Limiting Toxicity (DLT),Observation for DLTs during a 28-day period.,primary,283
+1222,safety and tolerability of ICP-B05,Assess safety and tolerability of ICP-B05.,primary,67
+1222,PD,Demonstrate a significant reduction of CCR8-expressing cells from baseline.,secondary,66
+1274,Determination of the Part 2 dose,The Part 1 dose escalation was guided by a mTPI design to determine the Part 2 dose of Q702 in combination with pembrolizumab.,primary,73
+1274,Safety profile,Assess safety and tolerability.,not_stated,75
+1274,Overall response assessment (RECIST 1.1),Assess preliminary anti-tumor activity.,not_stated,74
