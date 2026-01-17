@@ -1,4 +1,4 @@
-# [Presentation link:](https://predicting-clinical-tria-bqou0l0.gamma.site/)
+# [Presentation link](https://predicting-clinical-tria-bqou0l0.gamma.site/)
 # Clinical Trial Success Predictor
 
 Этот раздел проекта содержит данные, документы и артефакты, используемые
