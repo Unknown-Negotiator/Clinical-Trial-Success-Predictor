@@ -116,3 +116,38 @@ data/
 2. Добавьте строку в docs_manifest.csv.
 3. Пересоберите индекс.
 4. Убедитесь, что обновились stats.json и rag_meta.jsonl.
+
+## Streamlit MVP агент
+
+В корне репозитория добавлен простой агент для оценки одной конечной точки с RAG, прайором и флагами (red/yellow/green).
+
+### Запуск
+```bash
+pip install -r requirements.txt
+export OPENAI_API_KEY=...             # ключ для совместимого OpenAI API
+# при работе через Nebius:
+# export OPENAI_BASE_URL="https://api.studio.nebius.ai/v1"
+streamlit run app.py
+```
+
+### Что делает
+- Выбираете endpoint из валидационного набора или задаёте JSON.
+- Агент подбирает контекст из `data/rag/rag_index`, применяет прайор по фазе/типу endpoint, добавляет аккуратные штрафы (small-N survival, single-arm, refractory) и простой biomarker-флаг.
+- LLM возвращает вероятностную оценку, флаги и обоснование с цитатами; система дополнительно блендит с прайором и показывает применённые штрафы/флаги.
+
+### Оценка качества
+- Плановый скрипт для прогона по `train_labels.csv` (precision/recall/F1) можно запускать отдельно; UI подходит для ручных проверок и демонстрации.
+
+### Батч-оценка (скрипт)
+```bash
+# Пример: проверить 30 случайных конечных точек
+conda activate clin-agent  # или ваша среда
+export OPENAI_API_KEY=...       # + OPENAI_BASE_URL, OPENAI_MODEL при необходимости
+python eval_agent.py --limit 30 --threshold 0.5 --output results.jsonl
+```
+Параметры:
+- `--limit` (по умолчанию 20; -1 = все метки) — сколько конечных точек оценивать;
+- `--threshold` — порог решения по смешанной вероятности;
+- `--seed` — для случайной выборки;
+- `--output` — путь для JSONL-логов с вероятностями/рационалами (опционально);
+- `--model` — переопределить имя модели (если не использовать `OPENAI_MODEL`).
