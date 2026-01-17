@@ -156,3 +156,15 @@ python eval_agent.py --limit 30 --threshold 0.5 --output data/results/results.js
 - `--model` — переопределить имя модели (если не использовать `OPENAI_MODEL`).
 
 Примеры сохранённых логов лежат в `data/results/`.
+
+### Предсказания для test.csv (submission)
+```bash
+conda activate clin-agent  # или ваша среда
+export OPENAI_API_KEY=...       # + OPENAI_BASE_URL, OPENAI_MODEL при необходимости
+python predict_test.py --output data/results/sample_submission.csv --details data/results/test_details.jsonl
+```
+Аргументы:
+- `--output` — CSV в формате `endpoint_id,endpoint_criterion_met`;
+- `--details` — опциональный JSONL с вероятностями/рационалами;
+- `--threshold` — порог для бинарного решения (по умолчанию 0.5);
+- `--limit` — подсчитать только первые N тестовых конечных точек (для отладки).
