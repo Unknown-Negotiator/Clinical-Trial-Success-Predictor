@@ -10,10 +10,15 @@ import sys
 from pathlib import Path
 from typing import Dict, List
 
+ROOT_DIR = Path(__file__).resolve().parent
+SRC_DIR = ROOT_DIR / "src"
+if str(SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(SRC_DIR))
+
 import pandas as pd
 
-from agent_utils import AgentError, build_client, run_agent
-from data_utils import (
+from clinical_agent.agent_utils import AgentError, build_client, run_agent
+from clinical_agent.data_utils import (
     EndpointRecord,
     VALIDATION_DIR,
     biomarker_flag,
@@ -25,7 +30,7 @@ from data_utils import (
     lookup_base_rate,
     penalty_rules,
 )
-from retrieval_utils import Retriever
+from clinical_agent.retrieval_utils import Retriever
 
 
 def parse_args() -> argparse.Namespace:

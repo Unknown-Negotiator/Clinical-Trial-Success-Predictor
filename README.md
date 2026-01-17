@@ -8,6 +8,8 @@
 
 ## Структура каталога
 ```text
+src/
+└── clinical_agent/           # core agent logic (retrieval, priors, LLM runner)
 notebooks/
 └── RAG_clin_trials.ipynb    # ноутбук для сборки RAG-корпуса/индекса
 data/

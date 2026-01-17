@@ -13,8 +13,10 @@ import numpy as np
 import pandas as pd
 
 
-BASE_DIR = Path(__file__).resolve().parent
-VALIDATION_DIR = BASE_DIR / "data" / "validation"
+# project root: repo/src/clinical_agent -> parents[2] is repo root
+ROOT_DIR = Path(__file__).resolve().parents[2]
+VALIDATION_DIR = ROOT_DIR / "data" / "validation"
+DATA_DIR = ROOT_DIR / "data"
 
 
 @dataclass

@@ -1,13 +1,19 @@
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
 from typing import Dict, List
 
 import streamlit as st
 
-from agent_utils import AgentError, build_client, run_agent
-from data_utils import (
+ROOT_DIR = Path(__file__).resolve().parent
+SRC_DIR = ROOT_DIR / "src"
+if str(SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(SRC_DIR))
+
+from clinical_agent.agent_utils import AgentError, build_client, run_agent
+from clinical_agent.data_utils import (
     biomarker_flag,
     blend_probability,
     build_endpoint_table,
@@ -20,7 +26,7 @@ from data_utils import (
     penalty_rules,
     sample_random_endpoint,
 )
-from retrieval_utils import Retriever
+from clinical_agent.retrieval_utils import Retriever
 
 
 st.set_page_config(page_title="Clinical Trial Endpoint Agent", layout="wide")
@@ -303,7 +309,7 @@ def _make_custom_endpoint(payload: Dict[str, object], merged=None):
     data["abstract_id"] = data.get("abstract_id") or 999999
     data["endpoint_id"] = data.get("endpoint_id") or 1
     row = pd.Series(data)
-    from data_utils import EndpointRecord
+    from clinical_agent.data_utils import EndpointRecord
 
     return EndpointRecord(abstract_id=int(row["abstract_id"]), endpoint_id=int(row["endpoint_id"]), data=row, has_label=False)
 
