@@ -2,3 +2,6 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+data/results/*
+!data/results/results.jsonl
+!data/results/results_all.jsonl

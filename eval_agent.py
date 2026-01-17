@@ -149,6 +149,7 @@ def evaluate(limit: int, seed: int, threshold: float, output: Path | None, model
     print(f"n={len(y_true)} | acc={acc:.3f} prec={prec:.3f} rec={rec:.3f} f1={f1:.3f} | time={elapsed/60:.1f} min | errors={errors}")
 
     if output:
+        output.parent.mkdir(parents=True, exist_ok=True)
         with output.open("w") as f:
             for row in logs:
                 f.write(json.dumps(row) + "\n")

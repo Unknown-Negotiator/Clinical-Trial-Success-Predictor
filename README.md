@@ -8,7 +8,10 @@
 
 ## Структура каталога
 ```text
+notebooks/
+└── RAG_clin_trials.ipynb    # ноутбук для сборки RAG-корпуса/индекса
 data/
+├── results/                 # опциональные логи батч-оценок (jsonl)
 ├── rag/
 │   ├── rag_data/           # PDF-документы, используемые в качестве базы знаний
 │   ├── rag_index/          # FAISS-индекс и метаданные чанков
@@ -143,7 +146,7 @@ streamlit run app.py
 # Пример: проверить 30 случайных конечных точек
 conda activate clin-agent  # или ваша среда
 export OPENAI_API_KEY=...       # + OPENAI_BASE_URL, OPENAI_MODEL при необходимости
-python eval_agent.py --limit 30 --threshold 0.5 --output results.jsonl
+python eval_agent.py --limit 30 --threshold 0.5 --output data/results/results.jsonl
 ```
 Параметры:
 - `--limit` (по умолчанию 20; -1 = все метки) — сколько конечных точек оценивать;
@@ -151,3 +154,5 @@ python eval_agent.py --limit 30 --threshold 0.5 --output results.jsonl
 - `--seed` — для случайной выборки;
 - `--output` — путь для JSONL-логов с вероятностями/рационалами (опционально);
 - `--model` — переопределить имя модели (если не использовать `OPENAI_MODEL`).
+
+Примеры сохранённых логов лежат в `data/results/`.
