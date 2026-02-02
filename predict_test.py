@@ -1,5 +1,5 @@
 """
-Generate agent predictions for the test endpoints and write a submission file.
+Генерирует предсказания агента для тестовых конечных точек и формирует файл submission.
 """
 from __future__ import annotations
 
@@ -77,7 +77,7 @@ def make_endpoint_record(row) -> EndpointRecord:
 def main() -> None:
     args = parse_args()
 
-    # Base rates from the labeled training set
+    # Базовые вероятности из размеченного тренировочного набора
     train_tables = load_validation_tables()
     merged_train = build_endpoint_table(train_tables)
     base_rates = compute_base_rates(merged_train)
@@ -150,7 +150,7 @@ def main() -> None:
         if i % 5 == 0 or i == len(idxs):
             print(f"[{i}/{len(idxs)}] prob={blended:.3f} pred={pred}")
 
-    # Write outputs
+    # Записываем результаты
     args.output.parent.mkdir(parents=True, exist_ok=True)
     pd.DataFrame(submission_rows).to_csv(args.output, index=False)
     print(f"Wrote submission to {args.output} | errors={errors}")

@@ -188,7 +188,7 @@ def main():
                             result = run_prediction(ep, base_rates)
                         except AgentError as e:
                             st.error(str(e))
-                        except Exception as e:  # pragma: no cover - UI safety
+                        except Exception as e:  # pragma: no cover - безопасность UI
                             st.error(f"Unexpected error: {e}")
                         else:
                             render_result(ep, result)
@@ -217,7 +217,7 @@ def main():
                             result = run_prediction(ep, base_rates)
                         except AgentError as e:
                             st.error(str(e))
-                        except Exception as e:  # pragma: no cover - UI safety
+                        except Exception as e:  # pragma: no cover - безопасность UI
                             st.error(f"Unexpected error: {e}")
                         else:
                             render_result(ep, result)
@@ -241,7 +241,7 @@ def main():
                     result = run_prediction(ep, base_rates)
                 except AgentError as e:
                     st.error(str(e))
-                except Exception as e:  # pragma: no cover - UI safety
+                except Exception as e:  # pragma: no cover - безопасность UI
                     st.error(f"Unexpected error: {e}")
                 else:
                     render_result(ep, result)
@@ -256,7 +256,7 @@ def main():
                     result = run_prediction(ep, base_rates)
                 except AgentError as e:
                     st.error(str(e))
-                except Exception as e:  # pragma: no cover - UI safety
+                except Exception as e:  # pragma: no cover - безопасность UI
                     st.error(f"Unexpected error: {e}")
                 else:
                     render_result(ep, result)
@@ -265,7 +265,7 @@ def main():
 def _make_custom_endpoint(payload: Dict[str, object], merged=None):
     import pandas as pd
 
-    # If payload references a validation row, hydrate from it to keep behavior identical to dropdown selection.
+    # Если payload ссылается на строку из валидационного набора, «гидратируем» её, чтобы поведение совпадало с выбором в выпадающем списке.
     if merged is not None and payload.get("abstract_id") is not None and payload.get("endpoint_id") is not None:
         try:
             existing = get_endpoint(merged, int(payload["abstract_id"]), int(payload["endpoint_id"]))

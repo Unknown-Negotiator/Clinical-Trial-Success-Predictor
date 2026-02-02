@@ -1,6 +1,6 @@
 """
-Lightweight RAG retrieval using existing FAISS index if available,
-with a fallback lexical scorer when FAISS or the embedding model is absent.
+Облегчённый RAG-поиск: использует готовый FAISS-индекс при наличии,
+с резервным лексическим скорером, если нет FAISS или модели эмбеддингов.
 """
 from __future__ import annotations
 
@@ -13,12 +13,12 @@ from typing import Dict, List, Optional
 
 try:
     import faiss  # type: ignore
-except Exception:  # pragma: no cover - optional dependency
+except Exception:  # pragma: no cover - опциональная зависимость
     faiss = None
 
 try:
     from sentence_transformers import SentenceTransformer  # type: ignore
-except Exception:  # pragma: no cover - optional dependency
+except Exception:  # pragma: no cover - опциональная зависимость
     SentenceTransformer = None
 
 
@@ -38,7 +38,7 @@ class Retriever:
                 self.index = None
                 self.embed_model = None
                 self.use_faiss = False
-        # Precompute tokens for fallback lexical scoring
+        # Предварительно вычисляем токены для резервного лексического скоринга
         self._token_cache = [self._tokenize(m["text"]) for m in self.meta]
 
     def _load_meta(self, path: Path) -> List[Dict[str, str]]:
@@ -84,7 +84,7 @@ class Retriever:
                 meta = self.meta[idx]
                 hits.append(self._format_hit(meta, float(score)))
             return hits
-        # Fallback lexical
+        # Резервный лексический поиск
         scored = []
         for i, meta in enumerate(self.meta):
             s = self._lexical_score(query, i)

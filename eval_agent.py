@@ -1,7 +1,7 @@
 """
-Batch evaluation script for the Streamlit agent pipeline.
+Скрипт пакетной оценки пайплайна Streamlit-агента.
 
-Runs the RAG + prior + penalty + LLM flow over labeled endpoints and reports metrics.
+Запускает RAG + прайор + штрафы + LLM над размеченными конечными точками и выводит метрики.
 """
 from __future__ import annotations
 

@@ -1,5 +1,5 @@
 """
-LLM agent runner: builds prompts, calls OpenAI-compatible API, and parses structured output.
+Запуск LLM-агента: формирует промпты, вызывает совместимый с OpenAI API и разбирает структурированный ответ.
 """
 from __future__ import annotations
 
@@ -62,7 +62,7 @@ Return JSON only with keys:
   "llm_probability": float between 0 and 1,
   "flags": {{"red": [], "yellow": [], "green": []}},
   "rationale": "one short paragraph focusing on design, sample size, endpoint robustness",
-  "citations": [{{"title": "...", "url": "..."}}]  // derived from retrieved evidence
+  "citations": [{{"title": "...", "url": "..."}}]  // получены из найденных отрывков
 }}
 Do not add extra keys or text. If evidence is weak, lower probability and add a yellow flag.
 """
@@ -105,7 +105,7 @@ def _parse_json_block(text: str) -> Dict[str, object]:
         try:
             return json.loads(candidate)
         except json.JSONDecodeError:
-            # Heuristic cleanup: fix single quotes, trailing commas, Python booleans
+            # Эвристическая очистка: заменяем одиночные кавычки, хвостовые запятые и булевы Python
             fixed = candidate
             fixed = fixed.replace("True", "true").replace("False", "false").replace("None", "null")
             fixed = re.sub(r",\s*([}\]])", r"\1", fixed)
@@ -115,7 +115,7 @@ def _parse_json_block(text: str) -> Dict[str, object]:
     try:
         return attempt_load(text)
     except json.JSONDecodeError:
-        # Try to isolate the JSON portion (strip fences if present)
+        # Пытаемся изолировать JSON-фрагмент (убираем ограждения, если есть)
         cleaned = text.strip()
         if cleaned.startswith("```"):
             cleaned = cleaned.strip("`")
