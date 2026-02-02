@@ -1,5 +1,5 @@
 """
-Утилиты для загрузки валидационных данных и расчёта лёгких прайоров/штрафов.
+Utilities for loading validation data and deriving lightweight priors/penalties.
 """
 from __future__ import annotations
 
@@ -13,7 +13,7 @@ import numpy as np
 import pandas as pd
 
 
-# корень проекта: repo/src/clinical_agent -> parents[2] — корень репозитория
+# project root: repo/src/clinical_agent -> parents[2] is the repo root
 ROOT_DIR = Path(__file__).resolve().parents[2]
 VALIDATION_DIR = ROOT_DIR / "data" / "validation"
 DATA_DIR = ROOT_DIR / "data"
@@ -35,7 +35,7 @@ def _load_csv(name: str) -> pd.DataFrame:
 
 
 def load_validation_tables() -> Dict[str, pd.DataFrame]:
-    """Загружает все CSV с валидационными данными."""
+    """Load all validation CSVs."""
     train = _load_csv("train.csv")
     features = _load_csv("train_features.csv")
     labels = _load_csv("train_labels.csv")
@@ -49,7 +49,7 @@ def load_validation_tables() -> Dict[str, pd.DataFrame]:
 
 
 def build_endpoint_table(tables: Dict[str, pd.DataFrame]) -> pd.DataFrame:
-    """Объединяет строки конечных точек с признаками абстрактов и метками (если есть)."""
+    """Join endpoint rows with abstract-level features and labels (if present)."""
     train = tables["train"]
     features = tables["features"]
     labels = tables["labels"]
@@ -88,7 +88,7 @@ def sample_random_endpoint(merged: pd.DataFrame, seed: Optional[int] = None) -> 
 
 
 def format_endpoint_context(ep: EndpointRecord) -> str:
-    """Создаёт лаконичный текстовый контекст для промпта."""
+    """Create a concise text context for prompting."""
     d = ep.data
     parts = [
         f"Endpoint name: {d.get('endpoint_name')}",
@@ -116,10 +116,10 @@ def format_endpoint_context(ep: EndpointRecord) -> str:
     return "\n".join([p for p in parts if p and p != "nan"])
 
 
-# ---- Прайоры и штрафы ----
+# ---- Priors and penalties ----
 
 def compute_base_rates(merged: pd.DataFrame) -> Dict[Tuple[str, str], float]:
-    """Рассчитывает лапласово-сглаженные базовые вероятности по (phase_number, endpoint_type)."""
+    """Compute Laplace-smoothed base rates by (phase_number, endpoint_type)."""
     rates: Dict[Tuple[str, str], float] = {}
     df = merged.dropna(subset=["endpoint_criterion_met"])
     if df.empty:

@@ -124,7 +124,7 @@ def _render_flags(flags: Dict[str, List[str]]):
             continue
         st.markdown(f"**{level.upper()} flags:**")
         for item in items:
-            st.markdown(f"- <span style='color:{colors[level]};'>■</span> {item}", unsafe_allow_html=True)
+            st.markdown(f"- <span style='color:{colors[level]};'>&#9632;</span> {item}", unsafe_allow_html=True)
 
 
 def main():
@@ -188,7 +188,7 @@ def main():
                             result = run_prediction(ep, base_rates)
                         except AgentError as e:
                             st.error(str(e))
-                        except Exception as e:  # pragma: no cover - безопасность UI
+                        except Exception as e:  # pragma: no cover - UI safety
                             st.error(f"Unexpected error: {e}")
                         else:
                             render_result(ep, result)
@@ -217,7 +217,7 @@ def main():
                             result = run_prediction(ep, base_rates)
                         except AgentError as e:
                             st.error(str(e))
-                        except Exception as e:  # pragma: no cover - безопасность UI
+                        except Exception as e:  # pragma: no cover - UI safety
                             st.error(f"Unexpected error: {e}")
                         else:
                             render_result(ep, result)
@@ -229,11 +229,11 @@ def main():
         selected_abs = st.selectbox("Abstract ID", abstract_ids)
         subset = merged[merged["abstract_id"] == selected_abs]
         endpoint_options = [
-            f"{int(r.endpoint_id)} — {r.endpoint_name} ({r.endpoint_type})"
+            f"{int(r.endpoint_id)} - {r.endpoint_name} ({r.endpoint_type})"
             for r in subset[["endpoint_id", "endpoint_name", "endpoint_type"]].itertuples(index=False)
         ]
         chosen = st.selectbox("Endpoint", endpoint_options)
-        endpoint_id = int(chosen.split(" — ")[0])
+        endpoint_id = int(chosen.split(" - ")[0])
         if st.button("Run validation endpoint", type="primary"):
             ep = get_endpoint(merged, selected_abs, endpoint_id)
             with st.spinner("Running agent..."):
@@ -241,7 +241,7 @@ def main():
                     result = run_prediction(ep, base_rates)
                 except AgentError as e:
                     st.error(str(e))
-                except Exception as e:  # pragma: no cover - безопасность UI
+                except Exception as e:  # pragma: no cover - UI safety
                     st.error(f"Unexpected error: {e}")
                 else:
                     render_result(ep, result)
@@ -256,7 +256,7 @@ def main():
                     result = run_prediction(ep, base_rates)
                 except AgentError as e:
                     st.error(str(e))
-                except Exception as e:  # pragma: no cover - безопасность UI
+                except Exception as e:  # pragma: no cover - UI safety
                     st.error(f"Unexpected error: {e}")
                 else:
                     render_result(ep, result)
@@ -265,7 +265,7 @@ def main():
 def _make_custom_endpoint(payload: Dict[str, object], merged=None):
     import pandas as pd
 
-    # Если payload ссылается на строку из валидационного набора, «гидратируем» её, чтобы поведение совпадало с выбором в выпадающем списке.
+    # If payload references a validation row, hydrate it so behavior matches the dropdown selection.
     if merged is not None and payload.get("abstract_id") is not None and payload.get("endpoint_id") is not None:
         try:
             existing = get_endpoint(merged, int(payload["abstract_id"]), int(payload["endpoint_id"]))
@@ -316,13 +316,13 @@ def _make_custom_endpoint(payload: Dict[str, object], merged=None):
 
 def render_result(ep, result):
     st.divider()
-    st.markdown(f"### Endpoint {ep.endpoint_id} — {ep.data.get('endpoint_name')}")
+    st.markdown(f"### Endpoint {ep.endpoint_id} - {ep.data.get('endpoint_name')}")
     st.markdown(f"**Decision:** {result['final_prediction'].upper()}  |  Probability: {result['blended_prob']:.2f}")
     st.markdown(f"Base rate: {result['base_prob']:.2f} ({result['base_note']})")
     if result["penalties"]:
         st.markdown("Applied penalties:")
         for p in result["penalties"]:
-            st.markdown(f"- {p['name']} (x{p['factor']}) — {p['reason']}")
+            st.markdown(f"- {p['name']} (x{p['factor']}) - {p['reason']}")
     _render_flags(result["flags"])
     st.markdown("**Rationale:**")
     st.write(result["model_result"].get("rationale", ""))
